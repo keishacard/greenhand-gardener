@@ -841,6 +841,18 @@
             "plantId": 52
         }
     ],
-    "gardenTypeRating": [],
-    "friends": []
+    "gardenTypeRating": [
+        {
+            "id": "",
+            "gardenTypeId": "",
+            "rating": ""
+        }
+    ],
+    "friends": [
+        {
+            "id": "",
+            "userId": "",
+            "friendId": ""
+        }
+    ]
 }
