@@ -1,0 +1,641 @@
+{
+    "users": [
+        {
+            "id": 2,
+            "username": "lbradwell1",
+            "email": "djohansen1@eepurl.com",
+            "password": "mhUUgClUg"
+        },
+        {
+            "id": 3,
+            "username": "adhooghe2",
+            "email": "mdelbergue2@spotify.com",
+            "password": "idntpv5"
+        },
+        {
+            "id": 4,
+            "username": "wsawfoot3",
+            "email": "lhumblestone3@nydailynews.com",
+            "password": "d1Np1t9"
+        },
+        {
+            "id": 5,
+            "username": "proseveare4",
+            "email": "jfolke4@rambler.ru",
+            "password": "fLPg9617ec"
+        },
+        {
+            "id": 6,
+            "username": "cfigiovanni5",
+            "email": "chandscombe5@unblog.fr",
+            "password": "3zCCH0"
+        },
+        {
+            "id": 7,
+            "username": "mfontes6",
+            "email": "rshelborne6@reddit.com",
+            "password": "NpwFxZh5Kva"
+        },
+        {
+            "id": 8,
+            "username": "cdrakard7",
+            "email": "dbohey7@wordpress.org",
+            "password": "nzsYMxmun"
+        },
+        {
+            "id": 9,
+            "username": "ibeedom8",
+            "email": "dtancock8@skyrock.com",
+            "password": "yv7sRln"
+        },
+        {
+            "id": 10,
+            "username": "erosenfelt9",
+            "email": "jmcgrann9@prnewswire.com",
+            "password": "Qo2fg4qSP8D"
+        }
+    ],
+    "gardens": [
+        {
+            "id": 1,
+            "userId": 8,
+            "title": 1,
+            "synopsis": "consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat",
+            "gardenTypeId": 2
+        },
+        {
+            "id": 2,
+            "userId": 3,
+            "title": 1,
+            "synopsis": "nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend",
+            "gardenTypeId": 1
+        },
+        {
+            "id": 3,
+            "userId": 7,
+            "title": 1,
+            "synopsis": "lectus in est risus auctor sed tristique in tempus sit amet sem",
+            "gardenTypeId": 4
+        },
+        {
+            "id": 4,
+            "userId": 4,
+            "title": 1,
+            "synopsis": "pede lobortis ligula sit amet eleifend pede libero quis orci nullam",
+            "gardenTypeId": 2
+        },
+        {
+            "id": 5,
+            "userId": 6,
+            "title": 1,
+            "synopsis": "id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel",
+            "gardenTypeId": 3
+        },
+        {
+            "id": 6,
+            "userId": 6,
+            "title": 1,
+            "synopsis": "amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus",
+            "gardenTypeId": 2
+        },
+        {
+            "id": 7,
+            "userId": 3,
+            "title": 1,
+            "synopsis": "at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit",
+            "gardenTypeId": 3
+        },
+        {
+            "id": 8,
+            "userId": 3,
+            "title": 1,
+            "synopsis": "cubilia curae nulla dapibus dolor vel est donec odio justo",
+            "gardenTypeId": 3
+        },
+        {
+            "id": 9,
+            "userId": 2,
+            "title": 1,
+            "synopsis": "sed interdum venenatis turpis enim blandit mi in porttitor pede",
+            "gardenTypeId": 2
+        },
+        {
+            "id": 10,
+            "userId": 6,
+            "title": 1,
+            "synopsis": "ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam",
+            "gardenTypeId": 3
+        }
+    ],
+    "gardenType": [
+        {
+            "id": 1,
+            "type": "salsa dance"
+        },
+        {
+            "id": 2,
+            "type": "bartender's buddy"
+        },
+        {
+            "id": 3,
+            "type": "Feed your friends"
+        },
+        {
+            "id": 4,
+            "type": "Not Your Grandmother's Tea Garden"
+        },
+        {
+            "id": 5,
+            "type": "Olive Garden Garden"
+        },
+        {
+            "id": 6,
+            "type": "Build Your Own"
+        }
+    ],
+    "plants": [
+        {
+            "id": 1,
+            "plantName": "Fresh Salsa Tomato",
+            "hardinessZone": "5-11",
+            "growTips": "large, meaty, plum-shaped fruit stays firm when chopped, easy to deseed and won't water down your salsa",
+            "picture": "URL"
+        },
+        {
+            "id": 2,
+            "plantName": "Tomatillo",
+            "hardinessZone": "5-11",
+            "growTips": "Tomatillos are easy to grow, but make sure to plant at least three because they do not self-pollinate. Tomatillos thrive in the same conditions as tomatoes.",
+            "picture": "URL"
+        },
+        {
+            "id": 3,
+            "plantName": "Jalapeno",
+            "hardinessZone": "3-11",
+            "growTips": "These medium-spicy peppers are very easy to grow. They need lots of sun and regular watering -- but try not to get the peppers wet. Harvest peppers when they are still green for best texture and flavor.",
+            "picture": "URL"
+        },
+        {
+            "id": 4,
+            "plantName": "Serrano",
+            "hardinessZone": "5-11",
+            "growTips": "Harvest hot serrano peppers when they are still green or when they are mature and will be red or yellow. Wear gloves when handling these spicy peppers.",
+            "picture": "URL"
+        },
+        {
+            "id": 5,
+            "plantName": "Lime Tree",
+            "hardinessZone": "8-11",
+            "growTips": "Lime trees usually need 3-4 years to begin to bear fruit and need a little extra work to grow well. They require lots of fertilizing. Make sure not to overwater, as lime trees are prone to root rot.",
+            "picture": "URL"
+        },
+        {
+            "id": 6,
+            "plantName": "Onions",
+            "hardinessZone": "3-9",
+            "growTips": "Do NOT plant onions with or near tomatoes or potatoes! Plant in the spring for a fall harvest, and fertilize frequently for larger bulbs. For sweeter onions, water more often.",
+            "picture": "URL"
+        },
+        {
+            "id": 7,
+            "plantName": "Garlic",
+            "hardinessZone": "3-9",
+            "growTips": "In mild climates, plant your garlic in fall and harvest in late spring, when most of the leaves dry out and turn brown. Resist the urge to pull them out by the stems! Always dig up gently with a hand spade.",
+            "picture": "URL"
+        },
+        {
+            "id": 8,
+            "plantName": "Brandywine Tomato",
+            "hardinessZone": "5-10",
+            "growTips": "This no-fuss tomato grows large, flavorful fruit. Use a simple tomato cage to support branches from breaking due to heavy fruit, and keep the fruit from resting on the ground or they will rot.",
+            "picture": "URL"
+        },
+        {
+            "id": 9,
+            "plantName": "Anaheim Pepper",
+            "hardinessZone": "5-11",
+            "growTips": "This sweet and mild spicy pepper doesn't require too much watering and are easy to grow if they get lots of bright sunlight.",
+            "picture": "URL"
+        },
+        {
+            "id": 10,
+            "plantName": "Cumin",
+            "hardinessZone": "5-10",
+            "growTips": "Cumin has lovely groups of white flowers. Leave the flowers to go to seed and dry on the stem. Toast and grind the seeds to make this delicious spice from scratch.",
+            "picture": "URL"
+        },
+        {
+            "id": 11,
+            "plantName": "Oregano",
+            "hardinessZone": "5-10",
+            "growTips": "Oregano grows beautifully in pots as well as in garden beds. To keep your oregano happy, let the soil dry out between waterings.",
+            "picture": "URL"
+        },
+        {
+            "id": 12,
+            "plantName": "Cilantro",
+            "hardinessZone": "3-11",
+            "growTips": "Cilantro's bright, fresh leaves are a staple in salsas. Snip the flowers off as they form to keep your cilantro growing continuously through the season.",
+            "picture": "URL"
+        },
+        {
+            "id": 13,
+            "plantName": "Hops",
+            "hardinessZone": "3-8",
+            "growTips": "Hops grow beautiful vines that can be used to canopy an area or grown along a trellis for a bold statement. Produces aromatic compound lantern-like flowers that are often used to brew beer.",
+            "picture": "URL"
+        },
+        {
+            "id": 14,
+            "plantName": "Basil",
+            "hardinessZone": "5-10",
+            "growTips": "Basil is a beginner garden's best friend! Basil can easily take over an entire garden. Snip off flowers to ensure a continuous supply of tasty leaves all season.",
+            "picture": "URL"
+        },
+        {
+            "id": 15,
+            "plantName": "Mint",
+            "hardinessZone": "3-11",
+            "growTips": "Mint can take over a garden quickly, so plant it by itself or in a container to keep it from becoming too invasive.",
+            "picture": "URL"
+        },
+        {
+            "id": 16,
+            "plantName": "Violets (viola genus)",
+            "hardinessZone": "5-10",
+            "growTips": "Tiny violet flowers are lovely floated on drinks or sugared and added to cakes or cookies. They only bloom in early spring, but you'll see their heart shaped leaves through summer - be careful not to mistake them for weeds and pull them!",
+            "picture": "URL"
+        },
+        {
+            "id": 17,
+            "plantName": "Lavender",
+            "hardinessZone": "5-9",
+            "growTips": "Lavender is very difficult to start from seed - spring for a young plant! Lavender must be in well draining soil, it does not tolerate soggy ground. Once it's established, lavender is remarkably hardy and will last several years.",
+            "picture": "URL"
+        },
+        {
+            "id": 18,
+            "plantName": "Rose",
+            "hardinessZone": "3-11",
+            "growTips": "Not all roses are created equal! Visit a garden shop to find a rose that fits your gardening skill and hardiness zone. Some varieties thrive on neglect. Rose petals and rose hips are aromatic in teas and other foods.",
+            "picture": "URL"
+        },
+        {
+            "id": 19,
+            "plantName": "Peach Tree",
+            "hardinessZone": "5-8",
+            "growTips": "Choose a tree that is about 1 year old and plant it in the spring, preferably the day it is purchased. Prune annually to maintain fruit production and prevent disease.",
+            "picture": "URL"
+        },
+        {
+            "id": 20,
+            "plantName": "Strawberry",
+            "hardinessZone": "3-10",
+            "growTips": "Strawberries are relatively easy berries to grow but you may be fighting wild bunnies for the fruit! Don't spash on the berries during watering to keep them from becoming diseased. Dried strawberries are wonderful in teas and granola.",
+            "picture": "URL"
+        },
+        {
+            "id": 21,
+            "plantName": "Blueberry",
+            "hardinessZone": "3-9",
+            "growTips": "Blueberries are one of the easiest fruit to grow! While they are self-pollinating, planting two or more will ensure a heavier fruit set. These naturally disease- and pest-resistant plants can last for decades.",
+            "picture": "URL"
+        },
+        {
+            "id": 22,
+            "plantName": "Orange Tree",
+            "hardinessZone": "8-11",
+            "growTips": "Citrus fruit takes aroun 6-8 months to ripen, and will not ripen if picked early, so leave them on the tree until they are ready. The best way to determine ripeness is by picking a fruit and tasting it.",
+            "picture": "URL"
+        },
+        {
+            "id": 23,
+            "plantName": "Apple Tree",
+            "hardinessZone": "3-8",
+            "growTips": "Apple trees are realtively easy to grow and care for. Apples are delicious fresh, frozen, or dired for use in teas or as a snack. Don't plant near cedar trees or your fruit will become too diseased to salvage. Prune mature trees annually during winter.",
+            "picture": "URL"
+        },
+        {
+            "id": 24,
+            "plantName": "Bee Balm",
+            "hardinessZone": "3-9",
+            "growTips": "Also known as bergamot, you must be patient if growing from seed as it will take at least a full year to bloom. For quicker access to these showy blooms beloved by people and pollinators alike, opt to buy a young plant. Bee Balm is very hardy once established and can last several years.",
+            "picture": "URL"
+        },
+        {
+            "id": 25,
+            "plantName": "Sunflower",
+            "hardinessZone": "2-11",
+            "growTips": "Sunflower can easily and reliably be grown from seed -- just sow them directly into your garden bed. Let the flowers dry on the stalk and watch as birds flock to your garden to feed on the dried seeds. Often will self sow for the following year.",
+            "picture": "URL"
+        },
+        {
+            "id": 26,
+            "plantName": "Mulberry Tree",
+            "hardinessZone": "5-9",
+            "growTips": "Mulberry trees are small-medium sized trees that grow quickly and will produce delicious mulberries within the first year or two of planting. These trees provide shelter for birds as well as tasty berries for wildlife & and humans. Plant out of the way of walkways and driveways as the berries squish and stain when they fall.",
+            "picture": "URL"
+        },
+        {
+            "id": 27,
+            "plantName": "Blackberry",
+            "hardinessZone": "5-10",
+            "growTips": "Blackberries are excellent for novice gardeners as they grow easily and voraciously. Berries have many culinary uses and also help feed wildlife, while the plant provides shelter to birds and rabbits too. Thornless varieties make harvesting berries even easier.",
+            "picture": "URL"
+        },
+        {
+            "id": 28,
+            "plantName": "Yarrow",
+            "hardinessZone": "3-9",
+            "growTips": "Native to North America, this hardy, sweet smelling plant does well in poor soils, is drought resistant, and attracts butterflies & bees",
+            "picture": "URL"
+        },
+        {
+            "id": 29,
+            "plantName": "Borage",
+            "hardinessZone": "4-11",
+            "growTips": "Easily grown from seed, this plant is a beneficial companion plant in gardens, and the star-shaped flowers add bright color and a light cucumber flavor to salads. Attracts pollinators.",
+            "picture": "URL"
+        },
+        {
+            "id": 30,
+            "plantName": "Kale",
+            "hardinessZone": "3-10",
+            "growTips": "Easily grown from seed, kale is a tasty snack for wild bunnies as well as humans. Once the plant has reached mature size, it is drought resistant and will grow more leaves as they are clipped for salads.",
+            "picture": "URL"
+        },
+        {
+            "id": 31,
+            "plantName": "Trumpet Vine",
+            "hardinessZone": "4-9",
+            "growTips": "Widely considered to be a native plant, trumpet vine grows easily and is a beautiful climber on trellises and walls. Nectar-rich, they will attract many birds and pollinators.",
+            "picture": "URL"
+        },
+        {
+            "id": 32,
+            "plantName": "Purple Coneflower",
+            "hardinessZone": "3-9",
+            "growTips": "Also known as echinacea, this plant takes at least a year to bloom from seed -- spring for a young plant to get your flowers sooner! Attracts butterflies, bees, and other polinator.",
+            "picture": "URL"
+        },
+        {
+            "id": 33,
+            "plantName": "Milkweed",
+            "hardinessZone": "3-9",
+            "growTips": "Once established, this plant is very hardy and will last for several years. Make sure to purchase a milkweed indigenous to your location to maximize ecological benefits, like helping maintain butterfly populations.",
+            "picture": "URL"
+        },
+        {
+            "id": 34,
+            "plantName": "Elderberry",
+            "hardinessZone": "3-9",
+            "growTips": "Elderberry grows wild all over the United States but is widely available for purchase at garden centers if you don't fancy digging one up. It boasts lovely full white flowers that mature into tasty dark shiney berries. Elderberry will attract many pollinators, feed birds in the fall, and can be used to make delicious teas and wine.",
+            "picture": "URL"
+        },
+        {
+            "id": 35,
+            "plantName": "Oak Tree",
+            "hardinessZone": "3-10",
+            "growTips": "Oak trees grow very large -- over 60 feet at maturity and are a cinch to care for, needing very little attention. Advanced gardeners may have fun propogating oak trees from acorns, but trees are readily availble at garden centers. Oak trees are important to wildlife and will keep the squirrels, birds, and other creatures very happy in your area.",
+            "picture": "URL"
+        },
+        {
+            "id": 36,
+            "plantName": "Dogwood Tree",
+            "hardinessZone": "3-9",
+            "growTips": "These small-medium flowering trees make a lovely addition to any garden. The flowers are among the first in spring, and the bright red berries in fall help feed wildlife. They thrive in well-drained soil in partial shade.",
+            "picture": "URL"
+        },
+        {
+            "id": 37,
+            "plantName": "Lemon Balm",
+            "hardinessZone": "4-9",
+            "growTips": "Lemon balm is easy to grow and will thrive in a shady, cooler part of the garden. Fragrant leaves can be pinched off all season and are a nice addition to teas and recipes that would benefit from a lemony touch.",
+            "picture": "URL"
+        },
+        {
+            "id": 38,
+            "plantName": "Chamomile",
+            "hardinessZone": "4-9",
+            "growTips": "These fragrant flowers look delicate buut are tough! Chamomile is a classic tea ingredient, grows well even in poor soil, and does not require much watering or care.",
+            "picture": "URL"
+        },
+        {
+            "id": 39,
+            "plantName": "Passionflower",
+            "hardinessZone": "5-11",
+            "growTips": "These exotic-looking flowers can grow almost anywhere and need very little care. The flowers can be used in teas and attract pollinators.",
+            "picture": "URL"
+        },
+        {
+            "id": 40,
+            "plantName": "Hibiscus",
+            "hardinessZone": "4-11",
+            "growTips": "There are many types of hibiscus -- choose a varietal ideal for your area and level of expertise. These plants produce large, colorful flowers that can be used in flavored simple syrups and teas. They require a little extra care, like fertilization and pruning.",
+            "picture": "URL"
+        },
+        {
+            "id": 41,
+            "plantName": "Pear Tree",
+            "hardinessZone": "3-10",
+            "growTips": "Pear trees are easy to grow and naturally disease- and pest-resistant. Plant at least two pear trees for pollination, and plant them in late winter or early spring.",
+            "picture": "URL"
+        },
+        {
+            "id": 42,
+            "plantName": "Currants",
+            "hardinessZone": "3-8",
+            "growTips": "These tart berries make wonderful jellies and teas and grow just fine in the shade. Do not prune until the plant is fully mature, about three years.",
+            "picture": "URL"
+        },
+        {
+            "id": 43,
+            "plantName": "Parsley",
+            "hardinessZone": "4-9",
+            "growTips": "This super easy-to-grow herb is wonderful in many dishes and wild bunnies love to munch on it, too.",
+            "picture": "URL"
+        },
+        {
+            "id": 44,
+            "plantName": "Rosemary",
+            "hardinessZone": "6-9",
+            "growTips": "Give your rosemary plenty of room to grow -- they grow to about 4 feet high and wide! This aromatic, hardy plant can last for years.",
+            "picture": "URL"
+        },
+        {
+            "id": 45,
+            "plantName": "Thyme",
+            "hardinessZone": "5-9",
+            "growTips": "There are over 50 variaties of thyme, with different flavors and aromas, from Enlgish thyme to lemon thyme to carraway thyme. These plants are excellent for beginner gardeners.",
+            "picture": "URL"
+        },
+        {
+            "id": 46,
+            "plantName": "Fennel",
+            "hardinessZone": "2-10",
+            "growTips": "Some varieties of fennel grow wild in the western US and will naturalize easily in the garden, and will self sow year after year. Most of this plant is edible and tasty, from the seeds to the flowers to tender stalks to the bulbs.",
+            "picture": "URL"
+        },
+        {
+            "id": 47,
+            "plantName": "San Marzan Tomato",
+            "hardinessZone": "5-10",
+            "growTips": "San Marzans are Italy's most famous tomatoes, known for making sauces and pastes due to their meaty structure, peelable skins, and easy-to-scoop out compact seed pockets. The shape makes them perfect for canning.",
+            "picture": "URL"
+        },
+        {
+            "id": 48,
+            "plantName": "Olive Tree",
+            "hardinessZone": "8-11",
+            "growTips": "Although these trees need bright, hot sun and well-draining soil, they still need to be watered regularly. They can live to be hundreds of years old, and may be grown in pots as well as in the ground.",
+            "picture": "URL"
+        },
+        {
+            "id": 49,
+            "plantName": "Sage",
+            "hardinessZone": "5-9",
+            "growTips": "This hardy, delectable herb is also gorgeous! Sage comes in many colors and flowers can be anywhere from white to purple. Sage is most flavorful fresh, but can be easily dried or frozen.",
+            "picture": "URL"
+        },
+        {
+            "id": 50,
+            "plantName": "Pimento Pepper",
+            "hardinessZone": "6-10",
+            "growTips": "Pimento peppers are sweet but flavorful and grow well in containers. The plants produce large bounties of heart shaped peppers that turn red when mature and are excellent for canning.",
+            "picture": "URL"
+        },
+        {
+            "id": 51,
+            "plantName": "Pepperoncini",
+            "hardinessZone": "7-10",
+            "growTips": "The sandier your soil, the better your pepperoncini will thrive! Water them regularly for a sweeter pepper, and water less for spicier ones. These are classic pickled peppers to serve with Italian-style sammies or a couple slices of pizza.",
+            "picture": "URL"
+        },
+        {
+            "id": 52,
+            "plantName": "Jimmy Nardello Pepper",
+            "hardinessZone": "6-10",
+            "growTips": "This sweet red pepper was famously brought to the US by an Italian family over 100 years ago. These easy-to-grow peppers are usually among the first peppers to ripen in a garden and are delicious raw, cooked, or dried.",
+            "picture": "URL"
+        }
+    ],
+    "gardenPlants": [
+        {
+            "id": 1,
+            "gardenId": 1,
+            "plantId": 1
+        },
+        {
+            "id": 2,
+            "gardenId": 1,
+            "plantId": 2
+        },
+        {
+            "id": 3,
+            "gardenId": 1,
+            "plantId": 3
+        },
+        {
+            "id": 4,
+            "gardenId": 1,
+            "plantId": 4
+        },
+        {
+            "id": 5,
+            "gardenId": 1,
+            "plantId": 5
+        },
+        {
+            "id": 6,
+            "gardenId": 1,
+            "plantId": 6
+        },
+        {
+            "id": 7,
+            "gardenId": 1,
+            "plantId": 7
+        },
+        {
+            "id": 8,
+            "gardenId": 1,
+            "plantId": 8
+        },
+        {
+            "id": 9,
+            "gardenId": 1,
+            "plantId": 9
+        },
+        {
+            "id": 10,
+            "gardenId": 1,
+            "plantId": 10
+        },
+        {
+            "id": 11,
+            "gardenId": 1,
+            "plantId": 11
+        },
+        {
+            "id": 12,
+            "gardenId": 1,
+            "plantId": 12
+        },
+        {
+            "id": 13,
+            "gardenId": 2,
+            "plantId": 13
+        },
+        {
+            "id": 14,
+            "gardenId": 2,
+            "plantId": 14
+        },
+        {
+            "id": 15,
+            "gardenId": 2,
+            "plantId": 15
+        },
+        {
+            "id": 16,
+            "gardenId": 2,
+            "plantId": 5
+        },
+        {
+            "id": 17,
+            "gardenId": 2,
+            "plantId": 17
+        },
+        {
+            "id": 18,
+            "gardenId": 2,
+            "plantId": 18
+        },
+        {
+            "id": 19,
+            "gardenId": 2,
+            "plantId": 19
+        },
+        {
+            "id": 20,
+            "gardenId": 2,
+            "plantId": 20
+        },
+        {
+            "id": 21,
+            "gardenId": 2,
+            "plantId": 21
+        },
+        {
+            "id": 22,
+            "gardenId": 2,
+            "plantId": 22
+        },
+        {
+            "id": 23,
+            "gardenId": 2,
+            "plantId": 23
+        }
+    ],
+    "gardenTypeRating": [],
+    "friends": []
+}
