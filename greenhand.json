@@ -478,9 +478,9 @@
         },
         {
             "id": 47,
-            "plantName": "San Marzan Tomato",
+            "plantName": "San Marzano Tomato",
             "hardinessZone": "5-10",
-            "growTips": "San Marzans are Italy's most famous tomatoes, known for making sauces and pastes due to their meaty structure, peelable skins, and easy-to-scoop out compact seed pockets. The shape makes them perfect for canning.",
+            "growTips": "San Marzanos are Italy's most famous tomatoes, known for making sauces and pastes due to their meaty structure, peelable skins, and easy-to-scoop out compact seed pockets. The shape makes them perfect for canning.",
             "picture": "URL"
         },
         {
@@ -634,6 +634,211 @@
             "id": 23,
             "gardenId": 2,
             "plantId": 23
+        },
+        {
+            "id": 24,
+            "gardenId": 3,
+            "plantId": 24
+        },
+        {
+            "id": 25,
+            "gardenId": 3,
+            "plantId": 25
+        },
+        {
+            "id": 26,
+            "gardenId": 3,
+            "plantId": 26
+        },
+        {
+            "id": 27,
+            "gardenId": 3,
+            "plantId": 27
+        },
+        {
+            "id": 28,
+            "gardenId": 3,
+            "plantId": 28
+        },
+        {
+            "id": 29,
+            "gardenId": 3,
+            "plantId": 29
+        },
+        {
+            "id": 30,
+            "gardenId": 3,
+            "plantId": 30
+        },
+        {
+            "id": 31,
+            "gardenId": 3,
+            "plantId": 31
+        },
+        {
+            "id": 32,
+            "gardenId": 3,
+            "plantId": 32
+        },
+        {
+            "id": 33,
+            "gardenId": 3,
+            "plantId": 33
+        },
+        {
+            "id": 34,
+            "gardenId": 3,
+            "plantId": 34
+        },
+        {
+            "id": 35,
+            "gardenId": 3,
+            "plantId": 35
+        },
+        {
+            "id": 36,
+            "gardenId": 3,
+            "plantId": 36
+        },
+        {
+            "id": 32,
+            "gardenId": 4,
+            "plantId": 15
+        },
+        {
+            "id": 37,
+            "gardenId": 4,
+            "plantId": 37
+        },
+        {
+            "id": 38,
+            "gardenId": 4,
+            "plantId": 38
+        },
+        {
+            "id": 39,
+            "gardenId": 4,
+            "plantId": 24
+        },
+        {
+            "id": 40,
+            "gardenId": 4,
+            "plantId": 18
+        },
+        {
+            "id": 41,
+            "gardenId": 4,
+            "plantId": 39
+        },
+        {
+            "id": 42,
+            "gardenId": 4,
+            "plantId": 17
+        },
+        {
+            "id": 43,
+            "gardenId": 4,
+            "plantId": 40
+        },
+        {
+            "id": 44,
+            "gardenId": 4,
+            "plantId": 19
+        },
+        {
+            "id": 45,
+            "gardenId": 4,
+            "plantId": 23
+        },
+        {
+            "id": 46,
+            "gardenId": 4,
+            "plantId": 41
+        },
+        {
+            "id": 47,
+            "gardenId": 4,
+            "plantId": 20
+        },
+        {
+            "id": 48,
+            "gardenId": 4,
+            "plantId": 42
+        },
+        {
+            "id": 49,
+            "gardenId": 4,
+            "plantId": 34
+        },
+        {
+            "id": 50,
+            "gardenId": 5,
+            "plantId": 14
+        },
+        {
+            "id": 51,
+            "gardenId": 5,
+            "plantId": 11
+        },
+        {
+            "id": 52,
+            "gardenId": 5,
+            "plantId": 43
+        },
+        {
+            "id": 53,
+            "gardenId": 5,
+            "plantId": 44
+        },
+        {
+            "id": 54,
+            "gardenId": 5,
+            "plantId": 45
+        },
+        {
+            "id": 55,
+            "gardenId": 5,
+            "plantId": 46
+        },
+        {
+            "id": 56,
+            "gardenId": 5,
+            "plantId": 47
+        },
+        {
+            "id": 57,
+            "gardenId": 5,
+            "plantId": 7
+        },
+        {
+            "id": 58,
+            "gardenId": 5,
+            "plantId": 6
+        },
+        {
+            "id": 59,
+            "gardenId": 5,
+            "plantId": 48
+        },
+        {
+            "id": 60,
+            "gardenId": 5,
+            "plantId": 49
+        },
+        {
+            "id": 61,
+            "gardenId": 5,
+            "plantId": 50
+        },
+        {
+            "id": 62,
+            "gardenId": 5,
+            "plantId": 51
+        },
+        {
+            "id": 63,
+            "gardenId": 5,
+            "plantId": 52
         }
     ],
     "gardenTypeRating": [],
