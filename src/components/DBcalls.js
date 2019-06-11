@@ -4,9 +4,11 @@ export default {
     getUser(id) {
         return fetch(`${remoteURL}/users/${id}`).then(e => e.json())
     },
+
     getAllUsers() {
         return fetch(`${remoteURL}/users`).then(e => e.json())
     },
+
     postNewUser(newUser) {
         return fetch(`${remoteURL}/users`, {
             method: "POST",
@@ -16,10 +18,41 @@ export default {
             body: JSON.stringify(newUser)
         }).then(e => e.json())
     },
+
     getGarden(id) {
         return fetch(`${remoteURL}/gardens/${id}`).then(e => e.json())
     },
+
     getAllGardens() {
         return fetch(`${remoteURL}/gardens`).then(e => e.json())
+    },
+
+    getGardenPlants(gardenId) {
+        return fetch(`${remoteURL}/gardenPlants`)
+    },
+
+    editGardens() {
+
+    },
+
+    postNewGardens() {
+
+    },
+
+    deleteGardens() {
+
+    },
+
+    getFriend(id) {
+
+    },
+
+    getAllFriends() {
+
+    },
+
+    getFriendGardens() {
+
     }
+
 }
