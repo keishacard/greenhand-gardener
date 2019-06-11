@@ -31,8 +31,14 @@ export default {
         return fetch(`${remoteURL}/gardenPlants`)
     },
 
-    editGardens() {
-
+    editGardens(editedGardens) {
+        return fetch(`${remoteURL}/gardens/${editedGardens.id}`, {
+            method: "PUT",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(editedGardens)
+        }).then(e => e.json());
     },
 
     postNewGardens() {
