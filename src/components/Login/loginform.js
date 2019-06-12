@@ -14,32 +14,30 @@ export default class Login extends Component {
         this.setState(stateToChange)
     }
 
-
-    handleLogin = (evt) => {
-        console.log(this.props.users)
-        let allUsers = this.props.users
-        let inputEmail = this.state.email
-        let inputPassword = this.state.password
-        let matchUser = allUsers.find(user => user.email === inputEmail && user.password === inputPassword)
-        console.log(this.state.email)
-        // console.log("matchUsers", matchUser.id)
-        evt.preventDefault();
-        if (this.state.email | this.state.password === "") {
-            window.alert("Please sign in");
-        }
-        else if (!matchUser) {
-            window.alert("User not found");
-        } else {
-            sessionStorage.setItem(
-                "credentials",
-                matchUser.name,
-            )
-        } if (matchUser) {
-            this.props.history.push("/forum");
-            window.alert(`Welcome back ${matchUser.name}!`)
-        }
+    handleLogin = e => {
+        e.preventDefault()
+        //This needs to be a DBcall to check if user exists and log them in
+        api.checkUserThing("email", this.state.password).then(emailResponse => {
+            api.checkUserThing("password", this.state.password).then(passwordResponse => {
+                //Check to see if username or email are already registered
+                if (nameResponse.length === 0) {
+                    alert("Username, Email, or Password incorrect")
+                }
+                else {
+                    sessionStorage.setItem("credentials", emailResponse[0].id)
+                    this.props.loginUser(emailResponse[0].id)
+                }
+            })
+        })
     }
 
     render() {
-
+        return (
+            <div>
+                <form>
+                    <Input type="email"></Input>
+                </form>
+            </div>
+        )
     }
+}

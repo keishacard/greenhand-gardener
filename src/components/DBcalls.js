@@ -28,7 +28,7 @@ export default {
     },
 
     getGardenPlants(gardenId) {
-        return fetch(`${remoteURL}/gardenPlants`)
+        return fetch(`${remoteURL}/gardenPlants?gardenId=${gardenId}&_expand=plant`)
     },
 
     editGardens(editedGardens) {
