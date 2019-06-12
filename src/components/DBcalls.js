@@ -28,11 +28,17 @@ export default {
     },
 
     getGardenPlants(gardenId) {
-        return fetch(`${remoteURL}/gardenPlants`)
+        return fetch(`${remoteURL}/gardenPlants?gardenId=${gardenId}&_expand=plant`)
     },
 
-    editGardens() {
-
+    editGardens(editedGardens) {
+        return fetch(`${remoteURL}/gardens/${editedGardens.id}`, {
+            method: "PUT",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(editedGardens)
+        }).then(e => e.json());
     },
 
     postNewGardens() {
