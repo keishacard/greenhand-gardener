@@ -15,11 +15,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Greenhand Gardener Features:
 
-1. Garden Themes:
+1. Garden Themes: The main dashboard after login features several prebuilt garden themes to explore and an option to build a garden independently from scratch. Select a garden theme to explore plants and tips.
 
-2. User Gardens:
+2. User Gardens: Save the garden to reference later or edit to preferences or hardiness zone. Gardens can be removed from user's gardens.
 
-3. Friends:
+3. Friends: View the gardens of friends using the app to stay inspired!
 
 ![image](src/components/img/greenhand-DBdiagram.jpg)
 
