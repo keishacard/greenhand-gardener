@@ -1,32 +1,36 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Greenhand Gardener
+# Greenhand Gardener
+## A Gardening App by Keisha Card
+![image](src/components/img/greenhand-logo.jpg)
 
-If you've ever wanted to make a garden but didn't know where to start? Greenhand Gardener makes building your first garden a cinch. Greenhand Gardener helps you plan your garden by theme. Just choose your passion: cooking, entertaining, being a good custodian of your environment. The themes
+## Want to create a beautiful, functional garden but don’t know where to start? Gardening by theme makes planning a cinch. This application provides themes for fun gardens based on function: entertaining, cooking, or being a custodian of local ecology. The chosen theme will provide suggested plants, hardiness zones, and gardening tips.
 
-### `npm start`
+### User Guide:
+1. Register or log in with an email and password
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+2. Use the navigation bar to toggle between app features: Garden Themes, Editable User Gardens, Friends
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+3. Log out to end user session.
 
-### `npm test`
+### Greenhand Gardener Features:
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Garden Themes:
 
-### `npm run build`
+2. User Gardens:
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Friends:
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+![image](src/components/img/greenhand-DBdiagram.jpg)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### How To Download & Run Greenhand Gardener:
 
-### `npm run eject`
+1. Choose or create a local directory to store Greenhand Gardener in & clone this repository into it
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. Install dependencies using `npm install`
+
+3. Install json-server globally from npm
+
+4. From root directory run `json-server -p 5002 api/greenhand.json`
+
+4. Run `npm start` and open http://localhost:3000 to view Greenhand Gardener in the browser. The page will automatically reload if changes are made to the code and build errors and lint warnings occur in the console as code is written.
