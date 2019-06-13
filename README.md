@@ -6,18 +6,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Want to create a beautiful, functional garden but don’t know where to start? Gardening by theme makes planning a cinch. This application provides themes for fun gardens based on function: entertaining, cooking, or being a custodian of local ecology. The chosen theme will provide suggested plants, hardiness zones, and gardening tips.
 
-### How To Download & Run Greenhand Gardener:
-
-1. Choose or create a local directory to store Greenhand Gardener in & clone this repository into it
-
-2. Install dependencies using `npm install`
-
-3. Install json-server globally from npm
-
-4. From root directory run `json-server -p 5002 api/greenhand.json`
-
-4. Run `npm start` and open http://localhost:3000 to view Greenhand Gardener in the browser. The page will automatically reload if changes are made to the code and build errors and lint warnings occur in the console as code is written.
-
 ### User Guide:
 1. Register or log in with an email and password
 
@@ -34,3 +22,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 3. Friends:
 
 ![image](src/components/img/greenhand-DBdiagram.jpg)
+
+### How To Download & Run Greenhand Gardener:
+
+1. Choose or create a local directory to store Greenhand Gardener in & clone this repository into it
+
+2. Install dependencies using `npm install`
+
+3. Install json-server globally from npm
+
+4. From root directory run `json-server -p 5002 api/greenhand.json`
+
+4. Run `npm start` and open http://localhost:3000 to view Greenhand Gardener in the browser. The page will automatically reload if changes are made to the code and build errors and lint warnings occur in the console as code is written.
