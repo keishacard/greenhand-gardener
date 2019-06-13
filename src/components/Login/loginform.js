@@ -37,7 +37,7 @@ export default class Login extends Component {
     render() {
         return (
             <React.Fragment>
-                <h1 class="display-1" align="center">Greenhand Gardener</h1>
+                <h1 className="display-1" align="center">Greenhand Gardener</h1>
                 <Form onSubmit={this.handleLogin}>
                     <div>
                         <FormGroup>

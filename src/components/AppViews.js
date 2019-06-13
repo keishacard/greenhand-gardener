@@ -45,7 +45,6 @@ export default class AppViews extends Component {
                         render={(props) => {
                             return <Register {...props} loginUser={this.loginUser} />
                         }} />
-                    {/* <Login loginUser={this.loginUser} /> */}
                 </React.Fragment>
             )
         }
