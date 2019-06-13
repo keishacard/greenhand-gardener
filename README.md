@@ -1,32 +1,36 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Greenhand Gardener
+# Greenhand Gardener
+## A Gardening App by Keisha Card
+![image](src/components/img/greenhand-logo.jpg)
 
-If you've ever wanted to make a garden but didn't know where to start? Greenhand Gardener makes building your first garden a cinch. Greenhand Gardener helps you plan your garden by theme. Just choose your passion: cooking, entertaining, being a good custodian of your environment. The themes
+## Want to create a beautiful, functional garden but don’t know where to start? Gardening by theme makes planning a cinch. This application provides themes for fun gardens based on function: entertaining, cooking, or being a custodian of local ecology. The chosen theme will provide suggested plants, hardiness zones, and gardening tips.
 
-### `npm start`
+### How To Download & Run Greenhand Gardener:
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Choose or create a local directory to store Greenhand Gardener in & clone this repository into it
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+2. Install dependencies using `npm install`
 
-### `npm test`
+3. Install json-server globally from npm
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. From root directory run `json-server -p 5002 api/greenhand.json`
 
-### `npm run build`
+4. Run `npm start` and open http://localhost:3000 to view Greenhand Gardener in the browser. The page will automatically reload if changes are made to the code and build errors and lint warnings occur in the console as code is written.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### User Guide:
+1. Register or log in with an email and password
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+2. Use the navigation bar to toggle between app features: Garden Themes, Editable User Gardens, Friends
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Log out to end user session.
 
-### `npm run eject`
+### Greenhand Gardener Features:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Garden Themes:
+
+2. User Gardens:
+
+3. Friends:
+
+![image](src/components/img/greenhand-DBdiagram.jpg)
