@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Route, Redirect } from "react-router-dom"
 import Login from "./Login/loginform"
+import Register from "./Login/Register"
 
 
 export default class AppViews extends Component {
@@ -20,7 +21,6 @@ export default class AppViews extends Component {
     componentDidMount() {
         if (sessionStorage.getItem("credentials")) {
             const userId = sessionStorage.getItem("credentials")
-            api.checkUserThing("id", userId).then(response => this.setState({ displayName: response[0].displayName }))
             this.setState({ auth: userId })
         }
     }
@@ -36,7 +36,15 @@ export default class AppViews extends Component {
         else {
             return (
                 <React.Fragment>
-                    <Login loginUser={this.loginUser} />
+                    <Route exact path="/"
+                        render={(props) => {
+                            return <Login {...props} loginUser={this.loginUser} />
+                        }} />
+
+                    <Route exact path="/register"
+                        render={(props) => {
+                            return <Register {...props} loginUser={this.loginUser} />
+                        }} />
                 </React.Fragment>
             )
         }

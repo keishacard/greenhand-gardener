@@ -1,12 +1,12 @@
-import React, { Component } from "react";
+import React, { Component } from "react"
 import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap'
 import DBcalls from "../DBcalls"
 
-export default class Login extends Component {
+
+export default class Register extends Component {
 
     state = {
-        email: "",
-        password: ""
+
     }
 
     handleFieldChange = (evt) => {
@@ -15,20 +15,21 @@ export default class Login extends Component {
         this.setState(stateToChange)
     }
 
-    handleLogin = e => {
-        e.preventDefault()
+    handleRegister = (evt) => {
+        evt.preventDefault()
+        let newUser = {
+            email: this.state.email,
+            password: this.state.password
+        }
         DBcalls.checkUserLogin(this.state.email).then(res => {
-            if (res.length === 0) {
-                alert("Not a registered email")
+            if (res.length !== 0) {
+                alert("Email already registered")
             }
             else {
-                if (res[0].password !== this.state.password) {
-                    alert("password incorrect")
-                }
-                else {
-                    sessionStorage.setItem("credentials", res[0].id)
-                    this.props.loginUser(res[0].id)
-                }
+                DBcalls.postNewUser(newUser).then(res => {
+                    sessionStorage.setItem("credentials", res.id)
+                    this.props.loginUser(res.id)
+                })
             }
         })
     }
@@ -38,7 +39,8 @@ export default class Login extends Component {
         return (
             <React.Fragment>
                 <h1 className="display-1" align="center">Greenhand Gardener</h1>
-                <Form onSubmit={this.handleLogin}>
+                <h2 className="display-3" align="center">Register Account</h2>
+                <Form onSubmit={this.handleRegister}>
                     <div>
                         <FormGroup>
                             <Label for="email">Email</Label>
@@ -48,10 +50,9 @@ export default class Login extends Component {
                             <Label for="password">Password</Label>
                             <Input type="password" onChange={this.handleFieldChange} id="password"></Input>
                         </FormGroup>
-                        <Button color="primary">Login</Button>
+                        <Button color="primary">Register</Button>
                     </div>
                 </Form>
-                <Button color="secondary" onClick={() => this.props.history.push("/register")}>Register</Button>
             </React.Fragment>
         )
     }
