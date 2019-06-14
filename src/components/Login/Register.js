@@ -30,6 +30,7 @@ export default class Register extends Component {
                 DBcalls.postNewUser(newUser).then(res => {
                     sessionStorage.setItem("credentials", res.id)
                     this.props.loginUser(res.id)
+                    this.props.history.push("/")
                 })
             }
         })

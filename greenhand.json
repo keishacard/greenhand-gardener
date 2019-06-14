@@ -53,6 +53,12 @@
       "email": "friends@friend.com",
       "password": "friendo",
       "id": 13
+    },
+    {
+      "username": "Sunny",
+      "email": "sunny@friend.com",
+      "password": "1111",
+      "id": 14
     }
   ],
   "gardens": [
