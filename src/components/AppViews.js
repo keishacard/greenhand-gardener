@@ -32,13 +32,21 @@ export default class AppViews extends Component {
         if (this.isAuthenticated())
             return (
                 <React.Fragment>
-                    {/* All authenticated routes go here */}
+                    {/* All authenticated routes go here, must be exact paths or go back to login */}
+
+                    {/* Navbar Route */}
                     <Route path="/" render={(props) => { return <Nav {...props} /> }} />
 
+                    {/* Dashboard Route */}
                     <Route exact path="/"
                         render={(props) => {
                             return <Dashboard {...props} loginUser={this.loginUser} />
                         }} />
+
+                    {/* My Gardens Route */}
+
+                    {/* Friends Route */}
+
                 </React.Fragment>
             )
         else {
