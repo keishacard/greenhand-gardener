@@ -2,6 +2,7 @@
   "users": [
     {
       "id": 1,
+      "username": "Yaya",
       "email": "cardkeisha@gmail.com",
       "password": "1111"
     },
@@ -42,32 +43,16 @@
       "password": "NpwFxZh5Kva"
     },
     {
-      "id": 8,
-      "username": "cdrakard7",
-      "email": "dbohey7@wordpress.org",
-      "password": "nzsYMxmun"
-    },
-    {
-      "id": 9,
-      "username": "ibeedom8",
-      "email": "dtancock8@skyrock.com",
-      "password": "yv7sRln"
-    },
-    {
-      "id": 10,
-      "username": "erosenfelt9",
-      "email": "jmcgrann9@prnewswire.com",
-      "password": "Qo2fg4qSP8D"
-    },
-    {
+      "username": "Seth Dana",
       "email": "seth.dana@gmail.com",
       "password": "password",
       "id": 11
     },
     {
-      "email": "cardkeisha@email.com",
-      "password": "meail",
-      "id": 12
+      "username": "Friendo",
+      "email": "friends@friend.com",
+      "password": "friendo",
+      "id": 13
     }
   ],
   "gardens": [

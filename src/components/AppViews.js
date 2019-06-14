@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
-import { Route, Redirect } from "react-router-dom"
+import { Route } from "react-router-dom"
 import Login from "./Login/loginform"
 import Register from "./Login/Register"
+import Dashboard from "./Dashboard/Dashboard"
+import Nav from "./Nav/Nav"
 
 
 export default class AppViews extends Component {
@@ -30,7 +32,21 @@ export default class AppViews extends Component {
         if (this.isAuthenticated())
             return (
                 <React.Fragment>
-                    {/* All authenticated routes go here */}
+                    {/* All authenticated routes go here, must be exact paths or go back to login */}
+
+                    {/* Navbar Route */}
+                    <Route path="/" render={(props) => { return <Nav {...props} /> }} />
+
+                    {/* Dashboard Route */}
+                    <Route exact path="/"
+                        render={(props) => {
+                            return <Dashboard {...props} loginUser={this.loginUser} />
+                        }} />
+
+                    {/* My Gardens Route */}
+
+                    {/* Friends Route */}
+
                 </React.Fragment>
             )
         else {
@@ -41,7 +57,7 @@ export default class AppViews extends Component {
                             return <Login {...props} loginUser={this.loginUser} />
                         }} />
 
-                    <Route exact path="/register"
+                    <Route path="/register"
                         render={(props) => {
                             return <Register {...props} loginUser={this.loginUser} />
                         }} />
