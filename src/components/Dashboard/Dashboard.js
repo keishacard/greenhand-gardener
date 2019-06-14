@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import salsaDance from "../img/salsa-dance.jpg"
 import {
     Card,
     CardImg,
@@ -18,7 +19,7 @@ export default class Dashboard extends Component {
                 <h1>Hello [USERNAME], what do you dig?</h1>
                 <div>
                     <Card>
-                        <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+                        <CardImg top width="100%" src={salsaDance} alt="Card image cap" />
                         <CardBody>
                             <CardTitle>Salsa Dance</CardTitle>
                             <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
