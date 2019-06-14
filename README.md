@@ -21,7 +21,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 3. Friends: View the gardens of friends using the app to stay inspired!
 
-![image](src/components/img/greenhand-DBdiagram.JPG)
+![image](src/components/img/pepperoncini.jpg)
 
 ### How To Download & Run Greenhand Gardener:
 
