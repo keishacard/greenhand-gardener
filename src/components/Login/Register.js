@@ -18,6 +18,7 @@ export default class Register extends Component {
     handleRegister = (evt) => {
         evt.preventDefault()
         let newUser = {
+            username: this.state.username,
             email: this.state.email,
             password: this.state.password
         }
@@ -42,6 +43,10 @@ export default class Register extends Component {
                 <h2 className="display-3" align="center">Register Account</h2>
                 <Form onSubmit={this.handleRegister}>
                     <div>
+                        <FormGroup>
+                            <Label for="username">Your Name</Label>
+                            <Input type="username" onChange={this.handleFieldChange} id="username"></Input>
+                        </FormGroup>
                         <FormGroup>
                             <Label for="email">Email</Label>
                             <Input type="email" onChange={this.handleFieldChange} id="email"></Input>

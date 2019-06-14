@@ -24,7 +24,7 @@ export default class Dashboard extends Component {
 
         return (
             <React.Fragment>
-                <h1 align="center">Hello {this.state.user.email}, what do you dig?</h1>
+                <h1 align="center">Hello {this.state.user.username}, what do you dig?</h1>
                 <div className="garden-container">
                     <div className="garden-card">
                         <img src={salsaDance} alt="salsa dance" onClick={this.clickedCard} />
