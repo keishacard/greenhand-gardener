@@ -39,6 +39,7 @@ export default class gardenCard1 extends Component {
                             <CardTitle>Salsa Dance</CardTitle>
                             <CardSubtitle></CardSubtitle>
                             <CardText>Grow everything you need to make delicious pico de gallo, salsa verde, or salsa rojo from scratch! A variety of peppers means you can tailor your salsas to your perfect level of spiciness.</CardText>
+                            <div id="plantDiv"></div>
                             <Button>Button</Button>
                         </CardBody>
                     </Card>

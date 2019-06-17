@@ -7,7 +7,6 @@ import oliveGarden from "../img/use-olive-garden-button.jpg"
 import byo from "../img/use-byo-button.jpg"
 import "./Dashboard.css"
 import DBcalls from "../DBcalls"
-import gardenCard1 from "../gardens/gardenCard"
 
 export default class Dashboard extends Component {
 
