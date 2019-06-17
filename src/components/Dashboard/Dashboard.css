@@ -4,6 +4,7 @@ body {
     box-sizing: border-box;
 }
 
+
 .garden-container {
     padding: 0px;
     margin: auto;
@@ -25,3 +26,6 @@ body {
 .garden-card img {
     max-width: inherit;
 }
+
+.garden-card:active { box-shadow: 1px 1px 6px black; }
+
