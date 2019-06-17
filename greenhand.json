@@ -64,73 +64,39 @@
   "gardens": [
     {
       "id": 1,
-      "userId": 8,
-      "title": 1,
+      "title": "Salsa Dance",
       "synopsis": "consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat",
-      "gardenTypeId": 2
+      "gardenTypeId": 1
     },
     {
       "id": 2,
-      "userId": 3,
       "title": 1,
       "synopsis": "nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend",
       "gardenTypeId": 1
     },
     {
       "id": 3,
-      "userId": 7,
       "title": 1,
       "synopsis": "lectus in est risus auctor sed tristique in tempus sit amet sem",
       "gardenTypeId": 4
     },
     {
       "id": 4,
-      "userId": 4,
       "title": 1,
       "synopsis": "pede lobortis ligula sit amet eleifend pede libero quis orci nullam",
       "gardenTypeId": 2
     },
     {
       "id": 5,
-      "userId": 6,
       "title": 1,
       "synopsis": "id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel",
       "gardenTypeId": 3
     },
     {
       "id": 6,
-      "userId": 6,
       "title": 1,
       "synopsis": "amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus",
       "gardenTypeId": 2
-    },
-    {
-      "id": 7,
-      "userId": 3,
-      "title": 1,
-      "synopsis": "at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit",
-      "gardenTypeId": 3
-    },
-    {
-      "id": 8,
-      "userId": 3,
-      "title": 1,
-      "synopsis": "cubilia curae nulla dapibus dolor vel est donec odio justo",
-      "gardenTypeId": 3
-    },
-    {
-      "id": 9,
-      "userId": 2,
-      "title": 1,
-      "synopsis": "sed interdum venenatis turpis enim blandit mi in porttitor pede",
-      "gardenTypeId": 2
-    },
-    {
-      "id": 10,
-      "userId": 6,
-      "title": 1,
-      "synopsis": "ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam",
-      "gardenTypeId": 3
     }
   ],
   "gardenType": [

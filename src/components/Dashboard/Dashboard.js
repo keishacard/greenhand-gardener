@@ -21,8 +21,9 @@ export default class Dashboard extends Component {
         console.log(this.state.user)
     }
 
-    clickedCard = () => {
-        alert("you clicked me")
+    clickedCard = (gardenId) => {
+        alert(`you clicked me ${gardenId}`)
+        this.props.history.push(`/gardenCard/${gardenId}`)
     }
 
     render() {
@@ -32,7 +33,7 @@ export default class Dashboard extends Component {
                 <h1 align="center">Hello {this.state.user.username}, what do you dig?</h1>
                 <div className="garden-container">
                     <div className="garden-card" id="1">
-                        <img src={salsaDance} alt="salsa dance" onClick={this.clickedCard} />
+                        <img src={salsaDance} alt="salsa dance" onClick={(evt) => this.clickedCard(evt.target.parentNode.id)} />
                     </div>
                     <div className="garden-card" id="3">
                         <img src={friends} alt="feed your friends" onClick={this.clickedCard} />
