@@ -22,7 +22,7 @@ export default class Dashboard extends Component {
     }
 
     clickedCard = (gardenId) => {
-        alert(`you clicked me ${gardenId}`)
+        // alert(`you clicked me ${gardenId}`)
         this.props.history.push(`/gardenCard/${gardenId}`)
     }
 
