@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flexContainer {
+    padding: 0px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-shadow: 3px 5px 8px darkgreen;
+    max-width: 900px;
+    max-height: 500px;
+}
+
+.plant-name-div {
+    box-shadow: 3px 5px 8px green;
+    margin: 40px;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.plant-info-div {
+    box-shadow: 3px 5px 8px green;
+    margin: 40px;
+    max-width: 400px;
+    max-height: 400px;
+}
