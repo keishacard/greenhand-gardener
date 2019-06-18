@@ -11,6 +11,7 @@ import {
 } from 'reactstrap';
 import ListPlants from "./ListPlants"
 import PlantInfo from "./PlantInfo"
+import "./garden.css"
 
 export default class gardenCard extends Component {
 
@@ -47,21 +48,24 @@ export default class gardenCard extends Component {
             <React.Fragment >
                 <h1 className="display-3">{this.state.garden.title}</h1>
                 <h3>{this.state.garden.synopsis}</h3>
-                <div className="plant-name-div">
-                    <ul>
-                        {this.state.plants.map((plant, plantArrayId) => {
-                            return (
-                                <div id={plantArrayId}>
-                                    <ListPlants plant={plant.plant} key={plant.plant.id} setPlant={this.setCurrentPlantInfo} />
-                                </div>
-                            )
+                <div className="flexContainer">
+                    <div className="plant-name-div">
+                        <ul>
+                            {this.state.plants.map((plant, plantArrayId) => {
+                                return (
+                                    <div id={plantArrayId}>
+                                        <ListPlants plant={plant.plant} key={plant.plant.id} setPlant={this.setCurrentPlantInfo} />
+                                    </div>
+                                )
 
-                        })}
-                    </ul>
+                            })}
+                        </ul>
+                    </div>
+                    <div className="plant-info-div">
+                        {(this.state.currentPlantInfo) ? <PlantInfo plantObject={this.state.currentPlantInfo} /> : null}
+                    </div>
                 </div>
-                <div className="plant-info-div">
-                    {(this.state.currentPlantInfo) ? <PlantInfo plantObject={this.state.currentPlantInfo} /> : null}
-                </div>
+                <Button>Save This Garden</Button>
             </React.Fragment >
         )
 
