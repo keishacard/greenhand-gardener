@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import salsaDance from "../img/use-salsa-button.jpg"
-import bartender from "../img/use-bartender-buddy-button.jpg"
-import tea from "../img/use-tea-garden-button.jpg"
-import friends from "../img/use-friends-button.jpg"
-import oliveGarden from "../img/use-olive-garden-button.jpg"
-import byo from "../img/use-byo-button.jpg"
+// import salsaDance from "../img/use-salsa-button.jpg"
+// import bartender from "../img/use-bartender-buddy-button.jpg"
+// import tea from "../img/use-tea-garden-button.jpg"
+// import friends from "../img/use-friends-button.jpg"
+// import oliveGarden from "../img/use-olive-garden-button.jpg"
+// import byo from "../img/use-byo-button.jpg"
 import "./Dashboard.css"
 import DBcalls from "../DBcalls"
 
@@ -21,8 +21,9 @@ export default class Dashboard extends Component {
         console.log(this.state.user)
     }
 
-    clickedCard = () => {
-        alert("you clicked me")
+    clickedCard = (gardenId) => {
+        // alert(`you clicked me ${gardenId}`)
+        this.props.history.push(`/gardenCard/${gardenId}`)
     }
 
     render() {
@@ -32,22 +33,22 @@ export default class Dashboard extends Component {
                 <h1 align="center">Hello {this.state.user.username}, what do you dig?</h1>
                 <div className="garden-container">
                     <div className="garden-card" id="1">
-                        <img src={salsaDance} alt="salsa dance" onClick={this.clickedCard} />
+                        <img src={process.env.PUBLIC_URL + "/img/use-salsa-button.jpg"} alt="salsa dance" onClick={(evt) => this.clickedCard(evt.target.parentNode.id)} />
                     </div>
                     <div className="garden-card" id="3">
-                        <img src={friends} alt="feed your friends" onClick={this.clickedCard} />
+                        <img src={process.env.PUBLIC_URL + "/img/use-friends-button.jpg"} alt="feed your friends" onClick={(evt) => this.clickedCard(evt.target.parentNode.id)} />
                     </div>
                     <div className="garden-card" id="2">
-                        <img src={bartender} alt="bartender's buddy" onClick={this.clickedCard} />
+                        <img src={process.env.PUBLIC_URL + "/img/use-bartender-buddy-button.jpg"} alt="bartender's buddy" onClick={(evt) => this.clickedCard(evt.target.parentNode.id)} />
                     </div>
                     <div className="garden-card" id="4">
-                        <img src={tea} alt="tea garden" onClick={this.clickedCard} />
+                        <img src={process.env.PUBLIC_URL + "/img/use-tea-garden-button.jpg"} alt="tea garden" onClick={(evt) => this.clickedCard(evt.target.parentNode.id)} />
                     </div>
                     <div className="garden-card" id="5">
-                        <img src={oliveGarden} alt="olive garden garden" onClick={this.clickedCard} />
+                        <img src={process.env.PUBLIC_URL + "/img/use-olive-garden-button.jpg"} alt="olive garden garden" onClick={(evt) => this.clickedCard(evt.target.parentNode.id)} />
                     </div>
                     <div className="garden-card" id="6">
-                        <img src={byo} alt="byo" onClick={this.clickedCard} />
+                        <img src={process.env.PUBLIC_URL + "/img/use-byo-button.jpg"} alt="byo" onClick={(evt) => this.clickedCard(evt.target.parentNode.id)} />
                     </div>
                 </div>
             </React.Fragment>
