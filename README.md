@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Greenhand Gardener
 ## A Gardening App by Keisha Card
-![image](src/components/img/greenhand-logo.jpg)
+![image](/public/img/greenhand-logo.jpg)
 
 ## Want to create a beautiful, functional garden but don’t know where to start? Gardening by theme makes planning a cinch. This application provides themes for fun gardens based on function: entertaining, cooking, or being a custodian of local ecology. The chosen theme will provide suggested plants, hardiness zones, and gardening tips.
 
@@ -21,7 +21,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 3. Friends: View the gardens of friends using the app to stay inspired!
 
-![image](src/components/img/greenhand-DBdiagram.jpg)
+![image](public/img/greenhand-DBdiagram.jpg)
 
 ### How To Download & Run Greenhand Gardener:
 
