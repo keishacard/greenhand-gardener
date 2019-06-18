@@ -41,6 +41,11 @@ export default class gardenCard extends Component {
         this.setState({ currentPlantInfo: currentPlant.plant })
     }
 
+    clickedSave = () => {
+        alert(`you clicked me`)
+        // this.props.history.push(`/gardenCard/${gardenId}`)
+    }
+
     /*each garden gets a card that will be rendered when the user clicks a garden button on the dashboard*/
     render() {
 
@@ -65,7 +70,7 @@ export default class gardenCard extends Component {
                         {(this.state.currentPlantInfo) ? <PlantInfo plantObject={this.state.currentPlantInfo} /> : null}
                     </div>
                 </div>
-                <Button>Save This Garden</Button>
+                <Button onClick={(evt) => this.clickedSave()}>Save This Garden</Button>
             </React.Fragment >
         )
 
