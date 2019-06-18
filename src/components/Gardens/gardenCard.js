@@ -65,6 +65,7 @@ export default class gardenCard extends Component {
                         {(this.state.currentPlantInfo) ? <PlantInfo plantObject={this.state.currentPlantInfo} /> : null}
                     </div>
                 </div>
+                <Button>Save This Garden</Button>
             </React.Fragment >
         )
 
