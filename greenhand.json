@@ -201,7 +201,7 @@
       "plantName": "Oregano",
       "hardinessZone": "5-10",
       "growTips": "Oregano grows beautifully in pots as well as in garden beds. To keep your oregano happy, let the soil dry out between waterings.",
-      "picture": "URL"
+      "picture": "/img/use-oregano.jpg"
     },
     {
       "id": 12,
@@ -250,7 +250,7 @@
       "plantName": "Rose",
       "hardinessZone": "3-11",
       "growTips": "Not all roses are created equal! Visit a garden shop to find a rose that fits your gardening skill and hardiness zone. Some varieties thrive on neglect. Rose petals and rose hips are aromatic in teas and other foods.",
-      "picture": "URL"
+      "picture": "/img/use-roses.jpg"
     },
     {
       "id": 19,
@@ -320,7 +320,7 @@
       "plantName": "Yarrow",
       "hardinessZone": "3-9",
       "growTips": "Native to North America, this hardy, sweet smelling plant does well in poor soils, is drought resistant, and attracts butterflies & bees",
-      "picture": "URL"
+      "picture": "/img/use-yarrow.jpg"
     },
     {
       "id": 29,
@@ -369,7 +369,7 @@
       "plantName": "Oak Tree",
       "hardinessZone": "3-10",
       "growTips": "Oak trees grow very large -- over 60 feet at maturity and are a cinch to care for, needing very little attention. Advanced gardeners may have fun propogating oak trees from acorns, but trees are readily availble at garden centers. Oak trees are important to wildlife and will keep the squirrels, birds, and other creatures very happy in your area.",
-      "picture": "URL"
+      "picture": "/img/red-oak.jpg"
     },
     {
       "id": 36,
@@ -439,7 +439,7 @@
       "plantName": "Thyme",
       "hardinessZone": "5-9",
       "growTips": "There are over 50 variaties of thyme, with different flavors and aromas, from Enlgish thyme to lemon thyme to carraway thyme. These plants are excellent for beginner gardeners.",
-      "picture": "URL"
+      "picture": "/img/use-thyme.jpg"
     },
     {
       "id": 46,
@@ -460,7 +460,7 @@
       "plantName": "Olive Tree",
       "hardinessZone": "8-11",
       "growTips": "Although these trees need bright, hot sun and well-draining soil, they still need to be watered regularly. They can live to be hundreds of years old, and may be grown in pots as well as in the ground.",
-      "picture": "URL"
+      "picture": "/img/use-this-olive.jpg"
     },
     {
       "id": 49,
