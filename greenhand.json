@@ -201,7 +201,7 @@
       "plantName": "Oregano",
       "hardinessZone": "5-10",
       "growTips": "Oregano grows beautifully in pots as well as in garden beds. To keep your oregano happy, let the soil dry out between waterings.",
-      "picture": "URL"
+      "picture": "/img/use-oregano.jpg"
     },
     {
       "id": 12,
@@ -320,7 +320,7 @@
       "plantName": "Yarrow",
       "hardinessZone": "3-9",
       "growTips": "Native to North America, this hardy, sweet smelling plant does well in poor soils, is drought resistant, and attracts butterflies & bees",
-      "picture": "URL"
+      "picture": "/img/use-yarrow.jpg"
     },
     {
       "id": 29,
@@ -439,7 +439,7 @@
       "plantName": "Thyme",
       "hardinessZone": "5-9",
       "growTips": "There are over 50 variaties of thyme, with different flavors and aromas, from Enlgish thyme to lemon thyme to carraway thyme. These plants are excellent for beginner gardeners.",
-      "picture": "URL"
+      "picture": "/img/use-thyme.jpg"
     },
     {
       "id": 46,
