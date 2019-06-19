@@ -26,6 +26,10 @@ export default class Dashboard extends Component {
         this.props.history.push(`/gardenCard/${gardenId}`)
     }
 
+    buildNewUserGarden = () => {
+        this.props.history.push("/byogarden")
+    }
+
     render() {
 
         return (
@@ -48,7 +52,7 @@ export default class Dashboard extends Component {
                         <img src={process.env.PUBLIC_URL + "/img/use-olive-garden-button.jpg"} alt="olive garden garden" onClick={(evt) => this.clickedCard(evt.target.parentNode.id)} />
                     </div>
                     <div className="garden-card" id="6">
-                        <img src={process.env.PUBLIC_URL + "/img/use-byo-button.jpg"} alt="byo" onClick={(evt) => this.clickedCard(evt.target.parentNode.id)} />
+                        <img src={process.env.PUBLIC_URL + "/img/use-byo-button.jpg"} alt="byo" onClick={(evt) => this.buildNewUserGarden()} />
                     </div>
                 </div>
             </React.Fragment>
