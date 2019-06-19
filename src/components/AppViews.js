@@ -5,7 +5,7 @@ import Register from "./Login/Register"
 import Dashboard from "./Dashboard/Dashboard"
 import Nav from "./Nav/Nav"
 import GardenCard from "./gardens/gardenCard"
-import MyGardens from "./gardens/MyGardens"
+import MyGardens from "./gardens/myGardens"
 import EditUserGarden from "./gardens/EditUserGarden"
 // import ByoGarden from "./gardens/ByoGarden"
 
