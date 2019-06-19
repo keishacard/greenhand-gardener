@@ -5,7 +5,7 @@ import ListPlants from "./ListPlants"
 import PlantInfo from "./PlantInfo"
 import "./garden.css"
 
-export default class gardenCard extends Component {
+export default class ByoGarden extends Component {
 
     state = {
         garden: {},

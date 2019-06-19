@@ -7,6 +7,7 @@ import Nav from "./Nav/Nav"
 import GardenCard from "./gardens/gardenCard"
 import MyGardens from "./gardens/MyGardens"
 import EditUserGarden from "./gardens/EditUserGarden"
+import ByoGarden from "./gardens/ByoGarden"
 
 
 export default class AppViews extends Component {
@@ -60,6 +61,11 @@ export default class AppViews extends Component {
                     <Route path="/editGarden"
                         render={(props) => {
                             return <EditUserGarden {...props} loginUser={this.loginUser} />
+                        }} />
+
+                    <Route path="/byoGarden"
+                        render={(props) => {
+                            return <ByoGarden {...props} loginUser={this.loginUser} />
                         }} />
 
                     {/* Friends Route */}
