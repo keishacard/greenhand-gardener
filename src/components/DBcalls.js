@@ -36,6 +36,10 @@ export default {
         return fetch(`${remoteURL}/gardenPlants?gardenId=${gardenId}&_expand=plant&_expand=garden`).then(res => res.json())
     },
 
+    // getAllGardenPlants() {
+    //     return fetch(`${remoteURL}/gardenPlants`).then(res => res.json())
+    // },
+
     editGardens(editedGardens) {
         return fetch(`${remoteURL}/gardens/${editedGardens.id}`, {
             method: "PUT",
