@@ -1,39 +1,21 @@
 import React, { Component } from "react";
 import DBcalls from "../DBcalls"
-import {
-    Card,
-    CardImg,
-    CardText,
-    CardBody,
-    CardTitle,
-    CardSubtitle,
-    Button
-} from 'reactstrap';
-import ListPlants from "./ListPlants"
-import PlantInfo from "./PlantInfo"
+import UserGardensList from "./UserGardensList"
 
 export default class MyGardens extends Component {
 
     state = {
-        garden: {},
-        plants: []
+        gardens: []
     }
 
-    // componentDidMount = () => {
-    //     let location = this.props.history.location
-    //     console.log(location)
-    //     let split = location.pathname.split("/")
-    //     let garden = split.pop()
-    //     DBcalls.getGardenPlants(garden).then(res => {
-    //         this.setState(() => {
-    //             return {
-    //                 garden: res[0].garden,
-    //                 plants: res
-    //                 // currentPlantInfo: res[0].plant
-    //             }
-    //         })
-    //     })
-    // }
+    componentDidMount = () => {
+
+        let userId = sessionStorage.getItem("credentials")
+        userId = parseInt(userId)
+        DBcalls.getUserGardens(userId).then(res => {
+            this.setState({ gardens: res })
+        })
+    }
 
     // setCurrentPlantInfo = (currentPlantArrayIndex) => {
     //     let currentPlant = this.state.plants[currentPlantArrayIndex]
@@ -50,16 +32,25 @@ export default class MyGardens extends Component {
         // this.props.history.push(`/gardenCard/${gardenId}`)
     }
 
+    editGarden = (userGardenId) => {
+        this.props.history.push(`editGarden/${userGardenId}`)
+    }
+
     // render the gardens user has saved
     render() {
-
         return (
             <React.Fragment >
-                <div className="savedGarden">
+                <h1>My Gardens</h1>
+                {this.state.gardens.map(userGarden => {
+                    return (
+                        <UserGardensList garden={userGarden} key={userGarden.id} editGarden={this.editGarden} />
+                    )
+                })}
+                {/* <div className="savedGarden">
                     <h3>Saved Garden</h3>
                 </div>
-                <Button onClick={(evt) => this.clickedSave()}>Save This Garden</Button>
-                <Button onClick={(evt) => this.clickedRemove()}>Remove This Garden</Button>
+                <Button onClick={(evt) => this.clickedEdit()}>Edit This Garden</Button>
+                <Button onClick={(evt) => this.clickedRemove()}>Remove This Garden</Button> */}
             </React.Fragment >
         )
     }

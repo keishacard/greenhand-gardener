@@ -46,8 +46,35 @@ export default {
         }).then(e => e.json());
     },
 
-    postNewGardens() {
+    postUserGarden(userId, gardenObj) {
+        return fetch(`${remoteURL}/userGardens`, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                userId: parseInt(userId),
+                garden: gardenObj
+            })
+        }).then(res => res.json())
+    },
 
+    getUserGardens(userId) {
+        return fetch(`${remoteURL}/userGardens?userId=${userId}`).then(res => res.json())
+    },
+
+    getUserGarden(userGardenId) {
+        return fetch(`${remoteURL}/userGardens/${userGardenId}`).then(res => res.json())
+    },
+
+    postEditedUserGarden(gardenObj, userGardenId) {
+        return fetch(`${remoteURL}/userGardens/${userGardenId}`, {
+            method: "PUT",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(gardenObj)
+        }).then(res => res.json())
     },
 
     deleteGardens() {
