@@ -1,14 +1,6 @@
 import React, { Component } from "react";
 import DBcalls from "../DBcalls"
-import {
-    Card,
-    CardImg,
-    CardText,
-    CardBody,
-    CardTitle,
-    CardSubtitle,
-    Button
-} from 'reactstrap';
+import { Button } from "reactstrap"
 import ListPlants from "./ListPlants"
 import PlantInfo from "./PlantInfo"
 import "./garden.css"
@@ -41,12 +33,26 @@ export default class gardenCard extends Component {
         this.setState({ currentPlantInfo: currentPlant.plant })
     }
 
+    clickedSave = () => {
+        alert(`you're saving ${this.state.garden.title}`)
+        let userGardenObj = {
+            title: this.state.garden.title,
+            synopsis: this.state.garden.synopsis,
+            plants: this.state.plants
+        }
+        DBcalls.postUserGarden(sessionStorage.getItem("credentials"), userGardenObj).then(res => {
+            console.log(res)
+        })
+        // this.props.history.push(`/gardenCard/${gardenId}`)
+    }
+
     /*each garden gets a card that will be rendered when the user clicks a garden button on the dashboard*/
     render() {
 
         return (
             <React.Fragment >
                 <h1 className="display-3">{this.state.garden.title}</h1>
+                <Button color="primary" onClick={this.clickedSave}>Save This Garden</Button>
                 <h3>{this.state.garden.synopsis}</h3>
                 <div className="flexContainer">
                     <div className="plant-name-div">
@@ -65,7 +71,6 @@ export default class gardenCard extends Component {
                         {(this.state.currentPlantInfo) ? <PlantInfo plantObject={this.state.currentPlantInfo} /> : null}
                     </div>
                 </div>
-                <Button>Save This Garden</Button>
             </React.Fragment >
         )
 

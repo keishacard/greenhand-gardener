@@ -5,6 +5,8 @@ import Register from "./Login/Register"
 import Dashboard from "./Dashboard/Dashboard"
 import Nav from "./Nav/Nav"
 import GardenCard from "./gardens/gardenCard"
+import MyGardens from "./gardens/MyGardens"
+import EditUserGarden from "./gardens/EditUserGarden"
 
 
 export default class AppViews extends Component {
@@ -44,10 +46,20 @@ export default class AppViews extends Component {
                             return <Dashboard {...props} loginUser={this.loginUser} />
                         }} />
 
-                    {/* My Gardens Route */}
                     <Route path="/gardenCard"
                         render={(props) => {
                             return <GardenCard {...props} />
+                        }} />
+
+                    {/* My Gardens Route */}
+                    <Route path="/MyGardens"
+                        render={(props) => {
+                            return <MyGardens {...props} loginUser={this.loginUser} />
+                        }} />
+
+                    <Route path="/editGarden"
+                        render={(props) => {
+                            return <EditUserGarden {...props} loginUser={this.loginUser} />
                         }} />
 
                     {/* Friends Route */}
