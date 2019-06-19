@@ -7,30 +7,6 @@
       "password": "1111"
     },
     {
-      "id": 2,
-      "username": "lbradwell1",
-      "email": "djohansen1@eepurl.com",
-      "password": "mhUUgClUg"
-    },
-    {
-      "id": 3,
-      "username": "adhooghe2",
-      "email": "mdelbergue2@spotify.com",
-      "password": "idntpv5"
-    },
-    {
-      "id": 4,
-      "username": "wsawfoot3",
-      "email": "lhumblestone3@nydailynews.com",
-      "password": "d1Np1t9"
-    },
-    {
-      "id": 5,
-      "username": "proseveare4",
-      "email": "jfolke4@rambler.ru",
-      "password": "fLPg9617ec"
-    },
-    {
       "id": 6,
       "username": "cfigiovanni5",
       "email": "chandscombe5@unblog.fr",
@@ -50,14 +26,14 @@
     },
     {
       "username": "Friendo",
-      "email": "friends@friend.com",
+      "email": "friendo@friend.com",
       "password": "friendo",
       "id": 13
     },
     {
       "username": "Sunny",
       "email": "sunny@friend.com",
-      "password": "1111",
+      "password": "sunny",
       "id": 14
     }
   ],
