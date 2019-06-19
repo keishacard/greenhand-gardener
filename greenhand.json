@@ -987,6 +987,250 @@
         ]
       },
       "id": 1
+    },
+    {
+      "userId": 1,
+      "garden": {
+        "title": "Feed Your Friends",
+        "synopsis": "Your garden can be a haven for wildlife -- attract birds, wild bunnies, and pollinators like bees and butterflies.",
+        "plants": [
+          {
+            "id": 24,
+            "gardenId": 3,
+            "plantId": 24,
+            "plant": {
+              "id": 24,
+              "plantName": "Bee Balm",
+              "hardinessZone": "Hardiness Zone: 3-9",
+              "growTips": "Also known as bergamot, you must be patient if growing from seed as it will take at least a full year to bloom. For quicker access to these showy blooms beloved by people and pollinators alike, opt to buy a young plant. Bee Balm is very hardy once established and can last several years.",
+              "picture": "/img/bee-balm.jpg"
+            },
+            "garden": {
+              "id": 3,
+              "title": "Feed Your Friends",
+              "synopsis": "Your garden can be a haven for wildlife -- attract birds, wild bunnies, and pollinators like bees and butterflies.",
+              "gardenTypeId": 3
+            }
+          },
+          {
+            "id": 25,
+            "gardenId": 3,
+            "plantId": 25,
+            "plant": {
+              "id": 25,
+              "plantName": "Sunflower",
+              "hardinessZone": "Hardiness Zone: 2-11",
+              "growTips": "Sunflower can easily and reliably be grown from seed for even ovice gardeners -- just sow them directly into your garden bed. Let the flowers dry on the stalk and watch as birds flock to your garden to feed on the dried seeds.",
+              "picture": "/img/sunflower.jpg"
+            },
+            "garden": {
+              "id": 3,
+              "title": "Feed Your Friends",
+              "synopsis": "Your garden can be a haven for wildlife -- attract birds, wild bunnies, and pollinators like bees and butterflies.",
+              "gardenTypeId": 3
+            }
+          },
+          {
+            "id": 26,
+            "gardenId": 3,
+            "plantId": 26,
+            "plant": {
+              "id": 26,
+              "plantName": "Mulberry Tree",
+              "hardinessZone": "Hardiness Zone: 5-9",
+              "growTips": "Mulberry trees are small-medium sized trees that grow quickly and will produce delicious mulberries within the first year or two of planting. These trees provide shelter for birds as well as tasty berries for wildlife & and humans. Plant out of the way of walkways and driveways as the berries squish and stain when they fall.",
+              "picture": "/img/mulberry.jpg"
+            },
+            "garden": {
+              "id": 3,
+              "title": "Feed Your Friends",
+              "synopsis": "Your garden can be a haven for wildlife -- attract birds, wild bunnies, and pollinators like bees and butterflies.",
+              "gardenTypeId": 3
+            }
+          },
+          {
+            "id": 27,
+            "gardenId": 3,
+            "plantId": 27,
+            "plant": {
+              "id": 27,
+              "plantName": "Blackberry",
+              "hardinessZone": "Hardiness Zone: 5-10",
+              "growTips": "Blackberries are excellent for new gardeners as they grow easily and voraciously. Berries have many culinary uses and also help feed wildlife, while the plant provides shelter to birds and rabbits too. Thornless varieties make harvesting berries even easier.",
+              "picture": "/img/blackberry.jpg"
+            },
+            "garden": {
+              "id": 3,
+              "title": "Feed Your Friends",
+              "synopsis": "Your garden can be a haven for wildlife -- attract birds, wild bunnies, and pollinators like bees and butterflies.",
+              "gardenTypeId": 3
+            }
+          },
+          {
+            "id": 28,
+            "gardenId": 3,
+            "plantId": 28,
+            "plant": {
+              "id": 28,
+              "plantName": "Yarrow",
+              "hardinessZone": "Hardiness Zone: 3-9",
+              "growTips": "Native to North America, this hardy, sweet smelling plant does well in poor soils, is drought resistant, and attracts butterflies & bees",
+              "picture": "/img/use-yarrow.jpg"
+            },
+            "garden": {
+              "id": 3,
+              "title": "Feed Your Friends",
+              "synopsis": "Your garden can be a haven for wildlife -- attract birds, wild bunnies, and pollinators like bees and butterflies.",
+              "gardenTypeId": 3
+            }
+          },
+          {
+            "id": 29,
+            "gardenId": 3,
+            "plantId": 29,
+            "plant": {
+              "id": 29,
+              "plantName": "Borage",
+              "hardinessZone": "Hardiness Zone: 4-11",
+              "growTips": "Easily grown from seed, this plant is a beneficial companion plant in gardens, and the star-shaped flowers add bright color and a light cucumber flavor to salads. Attracts pollinators.",
+              "picture": "/img/borage.jpg"
+            },
+            "garden": {
+              "id": 3,
+              "title": "Feed Your Friends",
+              "synopsis": "Your garden can be a haven for wildlife -- attract birds, wild bunnies, and pollinators like bees and butterflies.",
+              "gardenTypeId": 3
+            }
+          },
+          {
+            "id": 30,
+            "gardenId": 3,
+            "plantId": 30,
+            "plant": {
+              "id": 30,
+              "plantName": "Kale",
+              "hardinessZone": "Hardiness Zone: 3-10",
+              "growTips": "Easily grown from seed, kale is a tasty snack for wild bunnies as well as humans. Once the plant has reached mature size, it is drought resistant and will grow more leaves as they are clipped for salads.",
+              "picture": "/img/kale.jpg"
+            },
+            "garden": {
+              "id": 3,
+              "title": "Feed Your Friends",
+              "synopsis": "Your garden can be a haven for wildlife -- attract birds, wild bunnies, and pollinators like bees and butterflies.",
+              "gardenTypeId": 3
+            }
+          },
+          {
+            "id": 31,
+            "gardenId": 3,
+            "plantId": 31,
+            "plant": {
+              "id": 31,
+              "plantName": "Trumpet Vine",
+              "hardinessZone": "Hardiness Zone: 4-9",
+              "growTips": "Widely considered to be a native plant, trumpet vine grows easily and is a beautiful climber on trellises and walls. Nectar-rich, they will attract many birds and pollinators.",
+              "picture": "/img/trumpet vine.jpg"
+            },
+            "garden": {
+              "id": 3,
+              "title": "Feed Your Friends",
+              "synopsis": "Your garden can be a haven for wildlife -- attract birds, wild bunnies, and pollinators like bees and butterflies.",
+              "gardenTypeId": 3
+            }
+          },
+          {
+            "id": 32,
+            "gardenId": 3,
+            "plantId": 32,
+            "plant": {
+              "id": 32,
+              "plantName": "Purple Coneflower",
+              "hardinessZone": "Hardiness Zone: 3-9",
+              "growTips": "Also known as echinacea, this plant takes at least a year to bloom from seed -- spring for a young plant to get your flowers sooner! Attracts butterflies, bees, and other pollinators.",
+              "picture": "/img/purple-coneflower.jpg"
+            },
+            "garden": {
+              "id": 3,
+              "title": "Feed Your Friends",
+              "synopsis": "Your garden can be a haven for wildlife -- attract birds, wild bunnies, and pollinators like bees and butterflies.",
+              "gardenTypeId": 3
+            }
+          },
+          {
+            "id": 33,
+            "gardenId": 3,
+            "plantId": 33,
+            "plant": {
+              "id": 33,
+              "plantName": "Milkweed",
+              "hardinessZone": "Hardiness Zone: 3-9",
+              "growTips": "Once established, this plant is very hardy and will last for several years. Make sure to purchase a milkweed indigenous to your location to maximize ecological benefits, like helping maintain butterfly populations.",
+              "picture": "/img/milkweed.jpg"
+            },
+            "garden": {
+              "id": 3,
+              "title": "Feed Your Friends",
+              "synopsis": "Your garden can be a haven for wildlife -- attract birds, wild bunnies, and pollinators like bees and butterflies.",
+              "gardenTypeId": 3
+            }
+          },
+          {
+            "id": 34,
+            "gardenId": 3,
+            "plantId": 34,
+            "plant": {
+              "id": 34,
+              "plantName": "Elderberry",
+              "hardinessZone": "Hardiness Zone: 3-9",
+              "growTips": "Elderberry grows wild all over the United States but is widely available for purchase at garden centers if you don't fancy digging one up. It boasts lovely full white flowers that mature into tasty dark shiney berries. Elderberry will attract many pollinators, feed birds in the fall, and can be used to make delicious teas and wine.",
+              "picture": "/img/elderberry.jpg"
+            },
+            "garden": {
+              "id": 3,
+              "title": "Feed Your Friends",
+              "synopsis": "Your garden can be a haven for wildlife -- attract birds, wild bunnies, and pollinators like bees and butterflies.",
+              "gardenTypeId": 3
+            }
+          },
+          {
+            "id": 35,
+            "gardenId": 3,
+            "plantId": 35,
+            "plant": {
+              "id": 35,
+              "plantName": "Oak Tree",
+              "hardinessZone": "Hardiness Zone: 3-10",
+              "growTips": "Oak trees grow very large -- over 60 feet at maturity and are a cinch to care for, needing very little attention. Advanced gardeners may have fun propogating oak trees from acorns, but trees are readily availble at garden centers. Oak trees are important to wildlife and will keep the squirrels, birds, and other creatures very happy in your area.",
+              "picture": "/img/red-oak.jpg"
+            },
+            "garden": {
+              "id": 3,
+              "title": "Feed Your Friends",
+              "synopsis": "Your garden can be a haven for wildlife -- attract birds, wild bunnies, and pollinators like bees and butterflies.",
+              "gardenTypeId": 3
+            }
+          },
+          {
+            "id": 36,
+            "gardenId": 3,
+            "plantId": 36,
+            "plant": {
+              "id": 36,
+              "plantName": "Dogwood Tree",
+              "hardinessZone": "Hardiness Zone: 3-9",
+              "growTips": "These small-medium flowering trees make a lovely addition to any garden. Their flowers are among the first in spring, and the bright red berries in fall help feed wildlife. They thrive in well-drained soil in partial shade.",
+              "picture": "URL"
+            },
+            "garden": {
+              "id": 3,
+              "title": "Feed Your Friends",
+              "synopsis": "Your garden can be a haven for wildlife -- attract birds, wild bunnies, and pollinators like bees and butterflies.",
+              "gardenTypeId": 3
+            }
+          }
+        ]
+      },
+      "id": 2
     }
   ]
 }
