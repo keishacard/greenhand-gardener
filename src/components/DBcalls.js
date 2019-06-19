@@ -77,8 +77,13 @@ export default {
         }).then(res => res.json())
     },
 
-    deleteGardens() {
-
+    deleteUserGarden(userId, userGardenId) {
+        return fetch(`${remoteURL}/userGardens/${userGardenId}`, {
+            method: "DELETE",
+            headers: {
+                "Content-Type": "application/json",
+            },
+        }).then(e => e.json())
     },
 
     getFriend(id) {

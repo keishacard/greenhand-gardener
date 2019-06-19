@@ -820,13 +820,7 @@
       "rating": ""
     }
   ],
-  "friends": [
-    {
-      "id": "",
-      "userId": "",
-      "friendId": ""
-    }
-  ],
+  "friends": [],
   "userGardens": [
     {
       "userId": 1,
