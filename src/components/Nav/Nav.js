@@ -28,9 +28,9 @@ export default class Example extends React.Component {
                         <NavItem>
                             <NavLink href="/mygardens">My Gardens</NavLink>
                         </NavItem>
-                        <NavItem>
+                        {/* <NavItem>
                             <NavLink href="/friends">Friends</NavLink>
-                        </NavItem>
+                        </NavItem> */}
                         <NavItem>
                             <NavLink href="/" onClick={this.logUserOut}>Logout</NavLink>
                         </NavItem>

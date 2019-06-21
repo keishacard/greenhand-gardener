@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import DBcalls from "../DBcalls"
+import { Button } from "reactstrap"
+import "../gardens/garden.css"
 
 export default class EditUserGarden extends Component {
 
@@ -13,7 +15,8 @@ export default class EditUserGarden extends Component {
         DBcalls.getUserGarden(garden).then(res => {
             this.setState({
                 userGardenId: garden,
-                currentGarden: res
+                currentGarden: res,
+                plants: res.garden.plants
             })
         })
     }
@@ -43,17 +46,20 @@ export default class EditUserGarden extends Component {
         if (this.state.currentGarden) {
             return (
                 <React.Fragment>
-                    <h1>test</h1>
-                    <button onClick={this.postEditedUserGarden}>Save Garden</button>
-                    <button onClick={this.deleteUserGarden}>Remove Garden</button>
-                    <h3>{this.state.currentGarden.garden.title}</h3>
-                    <ul>
-                        {this.state.currentGarden.garden.plants.map((plant, index) => {
-                            return (
-                                <li id={index} onClick={(evt) => this.removePlantFromGarden(evt.target.id)}>{plant.plant.plantName}</li>
-                            )
-                        })}
-                    </ul>
+                    <div className="container">
+                        <h2 className="display-3 bottom-border">Edit Your Garden</h2>
+                        <h4>Click on a plant to remove it from your garden.</h4>
+                        <Button color="primary" onClick={this.postEditedUserGarden}>Save Garden</Button>
+                        <Button color="danger" onClick={this.deleteUserGarden}>Remove Garden</Button>
+                        <h3 className="display-4">{this.state.currentGarden.garden.title}</h3>
+                        <ul className="edit-garden-list">
+                            {this.state.plants.map((plant, index) => {
+                                return (
+                                    <li id={index} onClick={(evt) => this.removePlantFromGarden(evt.target.id)}>{plant.plantName}</li>
+                                )
+                            })}
+                        </ul>
+                    </div>
                 </React.Fragment>
 
             )

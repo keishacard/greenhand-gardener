@@ -34,7 +34,7 @@ export default class Dashboard extends Component {
 
         return (
             <React.Fragment>
-                <h1 align="center">Hello {this.state.user.username}, what do you dig?</h1>
+                <h1 className="display-4" align="center">Hello {this.state.user.username}, what do you dig?</h1>
                 <div className="garden-container">
                     <div className="garden-card" id="1">
                         <img src={process.env.PUBLIC_URL + "/img/use-salsa-button.jpg"} alt="salsa dance" onClick={(evt) => this.clickedCard(evt.target.parentNode.id)} />
