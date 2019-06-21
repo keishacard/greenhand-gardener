@@ -10,21 +10,54 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    box-shadow: 3px 5px 8px darkgreen;
-    max-width: 900px;
-    max-height: 500px;
+    /* box-shadow: 3px 5px 8px darkgreen; */
+
+    max-width: 90%;
+    max-height: 90%;
 }
 
 .plant-name-div {
-    box-shadow: 3px 5px 8px green;
+    box-shadow: 3px 5px 8px black;
     margin: 40px;
-    max-width: 400px;
-    max-height: 400px;
+    /* width: 400px; */
+    width: 30%;
+    height: 800px;
+    /* overflow: scroll; */
+    padding: 10px;
+}
+
+.plant-name-div li {
+    list-style: none;
+    cursor: pointer;
+    font-size: 2rem;
 }
 
 .plant-info-div {
-    box-shadow: 3px 5px 8px green;
+    /* box-shadow: 3px 5px 8px black;
     margin: 40px;
     max-width: 400px;
-    max-height: 400px;
+    max-height: 400px; */
+    box-shadow: 3px 5px 8px black;
+    border: 1.5px solid black;
+    margin: 40px;
+    width: 50%;
+    height: 800px;
+    /* overflow: scroll; */
+    padding: 10px;
+    overflow: auto;
+}
+
+.plant-info-div img {
+    width: 400px;
+    max-height: inherit;
+    margin: 20px;
+}
+
+.plant-info-div li {
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+.plant-headline {
+    font-size: 2.5rem;
 }
