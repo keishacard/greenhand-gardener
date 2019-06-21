@@ -22,7 +22,7 @@ body {
     /* width: 400px; */
     width: 30%;
     height: 800px;
-    /* overflow: scroll; */
+    overflow: auto;
     padding: 10px;
 }
 
@@ -60,4 +60,21 @@ body {
 
 .plant-headline {
     font-size: 2.5rem;
+}
+
+button {
+    margin-right: 20px !important
+}
+
+.edit-garden-list {
+    list-style: none;
+}
+
+.my-gardens-list {
+    margin: 20px;
+    cursor: pointer;
+}
+
+.bottom-border {
+    border-bottom: .5px solid black;
 }

@@ -10,6 +10,7 @@ export default class ByoGarden extends Component {
     state = {
         garden: {},
         plants: [],
+        chosenPlants: [],
         userGardenObject: {
             "userId": 1,
             "garden": {
@@ -40,7 +41,7 @@ export default class ByoGarden extends Component {
         let userGardenObj = {
             title: this.state.garden.title,
             synopsis: this.state.garden.synopsis,
-            plants: this.state.plants
+            plants: this.state.chosenPlants
         }
         DBcalls.postUserGarden(sessionStorage.getItem("credentials"), userGardenObj).then(res => {
             console.log(res)
@@ -49,11 +50,14 @@ export default class ByoGarden extends Component {
     }
 
     clickedSavePlant = () => {
-        let newGardenObject = this.state.userGardenObject
-        newGardenObject.garden.plants.push(this.state.currentPlantInfo)
-        this.setState({
-            userGardenObject: newGardenObject
-        })
+        // let newGardenObject = this.state.userGardenObject
+        // newGardenObject.garden.plants.push(this.state.currentPlantInfo)
+        // this.setState({
+        //     userGardenObject: newGardenObject
+        // })
+        let newPlantsArray = this.state.chosenPlants
+        newPlantsArray.push(this.state.currentPlantInfo)
+        this.setState({ chosenPlants: newPlantsArray })
     }
 
     /*render a garden card that has ALL plants from the DB, 2nd div to have plant info, like garden card, but add button in 2nd div to save that plant*/
@@ -79,8 +83,8 @@ export default class ByoGarden extends Component {
                         </ul>
                     </div>
                     <div className="plant-info-div">
-                        {(this.state.currentPlantInfo) ? <PlantInfo plantObject={this.state.currentPlantInfo} /> : null}
                         <Button color="primary" onClick={this.clickedSavePlant}>Save This Plant</Button>
+                        {(this.state.currentPlantInfo) ? <PlantInfo plantObject={this.state.currentPlantInfo} /> : null}
                     </div>
                 </div>
             </React.Fragment >

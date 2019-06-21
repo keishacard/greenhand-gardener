@@ -18,10 +18,14 @@ export default class gardenCard extends Component {
         let split = location.pathname.split("/")
         let garden = split.pop()
         DBcalls.getGardenPlants(garden).then(res => {
+            let newPlantsArray = res.map(plant => {
+                return plant.plant
+            })
+            console.log(newPlantsArray)
             this.setState(() => {
                 return {
                     garden: res[0].garden,
-                    plants: res
+                    plants: newPlantsArray
                     // currentPlantInfo: res[0].plant
                 }
             })
@@ -30,7 +34,7 @@ export default class gardenCard extends Component {
 
     setCurrentPlantInfo = (currentPlantArrayIndex) => {
         let currentPlant = this.state.plants[currentPlantArrayIndex]
-        this.setState({ currentPlantInfo: currentPlant.plant })
+        this.setState({ currentPlantInfo: currentPlant })
     }
 
     clickedSave = () => {
@@ -60,7 +64,7 @@ export default class gardenCard extends Component {
                             {this.state.plants.map((plant, plantArrayId) => {
                                 return (
                                     <div id={plantArrayId}>
-                                        <ListPlants plant={plant.plant} key={plant.plant.id} setPlant={this.setCurrentPlantInfo} />
+                                        <ListPlants plant={plant} key={plant.id} setPlant={this.setCurrentPlantInfo} />
                                     </div>
                                 )
 

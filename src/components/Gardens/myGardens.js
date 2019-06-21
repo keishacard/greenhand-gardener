@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import DBcalls from "../DBcalls"
 import UserGardensList from "./UserGardensList"
+import "../gardens/garden.css"
 
 export default class MyGardens extends Component {
 
@@ -40,17 +41,19 @@ export default class MyGardens extends Component {
     render() {
         return (
             <React.Fragment >
-                <h1>My Gardens</h1>
-                {this.state.gardens.map(userGarden => {
-                    return (
-                        <UserGardensList garden={userGarden} key={userGarden.id} editGarden={this.editGarden} />
-                    )
-                })}
-                {/* <div className="savedGarden">
+                <div className="container">
+                    <h1 className="display-2 bottom-border">My Gardens</h1>
+                    {this.state.gardens.map(userGarden => {
+                        return (
+                            <UserGardensList garden={userGarden} key={userGarden.id} editGarden={this.editGarden} />
+                        )
+                    })}
+                    {/* <div className="savedGarden">
                     <h3>Saved Garden</h3>
                 </div>
                 <Button onClick={(evt) => this.clickedEdit()}>Edit This Garden</Button>
                 <Button onClick={(evt) => this.clickedRemove()}>Remove This Garden</Button> */}
+                </div>
             </React.Fragment >
         )
     }

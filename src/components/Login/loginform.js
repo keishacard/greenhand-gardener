@@ -39,7 +39,7 @@ export default class Login extends Component {
             <React.Fragment>
                 <h1 className="display-1" align="center">Greenhand Gardener</h1>
                 <Form onSubmit={this.handleLogin}>
-                    <div>
+                    <div className="login-div">
                         <FormGroup>
                             <Label for="email">Email</Label>
                             <Input type="email" onChange={this.handleFieldChange} id="email"></Input>
