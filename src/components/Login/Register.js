@@ -46,15 +46,15 @@ export default class Register extends Component {
                     <div>
                         <FormGroup>
                             <Label for="username">Your Name</Label>
-                            <Input type="username" onChange={this.handleFieldChange} id="username"></Input>
+                            <Input style={{ width: "40%" }} type="username" onChange={this.handleFieldChange} id="username"></Input>
                         </FormGroup>
                         <FormGroup>
                             <Label for="email">Email</Label>
-                            <Input type="email" onChange={this.handleFieldChange} id="email"></Input>
+                            <Input style={{ width: "40%" }} type="email" onChange={this.handleFieldChange} id="email"></Input>
                         </FormGroup>
                         <FormGroup>
                             <Label for="password">Password</Label>
-                            <Input type="password" onChange={this.handleFieldChange} id="password"></Input>
+                            <Input style={{ width: "40%" }} type="password" onChange={this.handleFieldChange} id="password"></Input>
                         </FormGroup>
                         <Button color="primary">Register</Button>
                     </div>
