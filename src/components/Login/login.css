@@ -13,3 +13,12 @@
 .labels {
   font-size: 2.5em;
 }
+
+.bottom-line {
+  border-bottom: .5px black solid;
+  max-width: 60%;
+}
+
+.login-div {
+  margin-bottom: 40px;
+}

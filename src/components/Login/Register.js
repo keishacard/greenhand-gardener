@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap'
 import DBcalls from "../DBcalls"
-
+import "./login.css"
 
 export default class Register extends Component {
 
@@ -40,26 +40,27 @@ export default class Register extends Component {
     render() {
         return (
             <React.Fragment>
-                <h1 className="display-1" align="center">Greenhand Gardener</h1>
-                <h2 className="display-3" align="center">Register Account</h2>
-                <Form onSubmit={this.handleRegister}>
-                    <div>
-                        <img id="logo" src={process.env.PUBLIC_URL + "/img/greenhand-logo.jpg"} alt="greenhand-logo" />
-                        <FormGroup>
-                            <Label for="username">Your Name</Label>
-                            <Input className="inputs" style={{ width: "40%" }} type="username" onChange={this.handleFieldChange} id="username"></Input>
-                        </FormGroup>
-                        <FormGroup>
-                            <Label className="inputs" for="email">Email</Label>
-                            <Input style={{ width: "40%" }} type="email" onChange={this.handleFieldChange} id="email"></Input>
-                        </FormGroup>
-                        <FormGroup>
-                            <Label className="inputs" for="password">Password</Label>
-                            <Input style={{ width: "40%" }} type="password" onChange={this.handleFieldChange} id="password"></Input>
-                        </FormGroup>
-                        <Button color="primary">Register</Button>
-                    </div>
-                </Form>
+                <div align="center">
+                    <img id="logo" src={process.env.PUBLIC_URL + "/img/greenhand-logo.jpg"} alt="greenhand-logo" />
+                    <h2 className="display-3 bottom-line" align="center">Register Account</h2>
+                    <Form onSubmit={this.handleRegister}>
+                        <div className="login-div">
+                            <FormGroup>
+                                <Label className="labels" for="username">Your Name</Label>
+                                <Input className="inputs" style={{ width: "40%" }} type="username" onChange={this.handleFieldChange} id="username"></Input>
+                            </FormGroup>
+                            <FormGroup>
+                                <Label className="labels" for="email">Email</Label>
+                                <Input style={{ width: "40%" }} type="email" onChange={this.handleFieldChange} id="email"></Input>
+                            </FormGroup>
+                            <FormGroup>
+                                <Label className="labels" for="password">Password</Label>
+                                <Input style={{ width: "40%" }} type="password" onChange={this.handleFieldChange} id="password"></Input>
+                            </FormGroup>
+                            <Button color="primary">Register</Button>
+                        </div>
+                    </Form>
+                </div>
             </React.Fragment>
         )
     }

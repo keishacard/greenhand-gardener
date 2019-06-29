@@ -5,6 +5,12 @@
       "email": "cardkeisha@gmail.com",
       "password": "1111",
       "id": 1
+    },
+    {
+      "username": "Sunny",
+      "email": "sunny@sunny.com",
+      "password": "sunny",
+      "id": 2
     }
   ],
   "gardens": [
@@ -1042,6 +1048,194 @@
         ]
       },
       "id": 3
+    },
+    {
+      "userId": 2,
+      "garden": {
+        "title": "Salsa Dance",
+        "synopsis": "Grow everything you need to make delicious pico de gallo, salsa verde, or salsa rojo from scratch! A variety of peppers means you can tailor your salsas to your perfect level of spiciness.",
+        "plants": [
+          {
+            "id": 1,
+            "plantName": "Fresh Salsa Tomato",
+            "hardinessZone": "Hardiness Zone: 5-11",
+            "growTips": "This tomato's large, meaty, plum-shaped fruit stays firm when chopped, is easy to deseed and won't water down your salsa.",
+            "picture": "/img/fresh-salsa.jpg"
+          },
+          {
+            "id": 2,
+            "plantName": "Tomatillo",
+            "hardinessZone": "Hardiness Zone: 5-11",
+            "growTips": "Tomatillos are easy to grow, but make sure to plant at least three because they do not self-pollinate. Tomatillos thrive in the same conditions as tomatoes. Don't remove the papery tunic that grows over the fruit until ready to use the tomatillo.",
+            "picture": "/img/tomatillo.jpg"
+          },
+          {
+            "id": 3,
+            "plantName": "Jalapeno",
+            "hardinessZone": "Hardiness Zone: 3-11",
+            "growTips": "These medium-spicy peppers are very easy to grow. They need lots of sun and regular watering -- but try not to get the peppers themselves wet. Harvest peppers when they are still green for best texture and flavor.",
+            "picture": "/img/jalapeno.jpg"
+          },
+          {
+            "id": 4,
+            "plantName": "Serrano",
+            "hardinessZone": "Hardiness Zone: 5-11",
+            "growTips": "Harvest hot serrano peppers when they are still green or when they are mature and will be red or yellow. Wear gloves when handling spicy peppers.",
+            "picture": "/img/serrano.jpg"
+          },
+          {
+            "id": 5,
+            "plantName": "Lime Tree",
+            "hardinessZone": "Hardiness Zone: 8-11",
+            "growTips": "Lime trees usually need 3-4 years to begin to bear fruit and need a little extra work to grow well. They require lots of fertilizing. Make sure not to overwater, as lime trees are prone to root rot.",
+            "picture": "/img/lime-tree.jpg"
+          },
+          {
+            "id": 6,
+            "plantName": "Onions",
+            "hardinessZone": "Hardiness Zone: 3-9",
+            "growTips": "Do NOT plant onions with or near tomatoes or potatoes! Plant in the spring for a fall harvest, and fertilize frequently for larger bulbs. For sweeter onions, water more often.",
+            "picture": "/img/onions.jpg"
+          },
+          {
+            "id": 7,
+            "plantName": "Garlic",
+            "hardinessZone": "Hardiness Zone: 3-9",
+            "growTips": "In mild climates, plant your garlic in fall and harvest in late spring, when most of the leaves dry out and turn brown. Resist the urge to pull them out by the stems! Always dig up gently with a hand spade.",
+            "picture": "/img/garlic.jpg"
+          },
+          {
+            "id": 8,
+            "plantName": "Brandywine Tomato",
+            "hardinessZone": "Hardiness Zone: 5-10",
+            "growTips": "This no-fuss tomato grows large, flavorful fruit. Use a simple tomato cage to support branches from breaking due to heavy fruit, and keep the fruit from resting on the ground or they will rot.",
+            "picture": "/img/brandywine-toms.jpg"
+          },
+          {
+            "id": 9,
+            "plantName": "Anaheim Pepper",
+            "hardinessZone": "Hardiness Zone: 5-11",
+            "growTips": "This sweet and mild spicy pepper plant doesn't require too much watering and is easy to grow if provided lots of bright sunlight.",
+            "picture": "/img/anaheim-pepper.jpg"
+          },
+          {
+            "id": 10,
+            "plantName": "Cumin",
+            "hardinessZone": "Hardiness Zone: 5-10",
+            "growTips": "Cumin has lovely groups of white flowers. Leave the flowers to go to seed and dry on the stem. Toast and grind the seeds to make this delicious spice from scratch.",
+            "picture": "/img/cumin_plant.jpg"
+          },
+          {
+            "id": 11,
+            "plantName": "Oregano",
+            "hardinessZone": "Hardiness Zone: 5-10",
+            "growTips": "Oregano grows beautifully in pots as well as in garden beds. To keep your oregano happy, let the soil dry out between waterings.",
+            "picture": "/img/use-oregano.jpg"
+          },
+          {
+            "id": 12,
+            "plantName": "Cilantro",
+            "hardinessZone": "Hardiness Zone: 3-11",
+            "growTips": "Cilantro's bright, fresh leaves are a staple in salsas. Snip the flowers off as they form to keep your cilantro growing continuously through the season. Cilantro benefits from partial shade as temperatures rise in the summer.",
+            "picture": "/img/cilantro.jpg"
+          }
+        ]
+      },
+      "id": 4
+    },
+    {
+      "userId": 2,
+      "garden": {
+        "title": "Salsa Dance",
+        "synopsis": "Grow everything you need to make delicious pico de gallo, salsa verde, or salsa rojo from scratch! A variety of peppers means you can tailor your salsas to your perfect level of spiciness.",
+        "plants": [
+          {
+            "id": 1,
+            "plantName": "Fresh Salsa Tomato",
+            "hardinessZone": "Hardiness Zone: 5-11",
+            "growTips": "This tomato's large, meaty, plum-shaped fruit stays firm when chopped, is easy to deseed and won't water down your salsa.",
+            "picture": "/img/fresh-salsa.jpg"
+          },
+          {
+            "id": 2,
+            "plantName": "Tomatillo",
+            "hardinessZone": "Hardiness Zone: 5-11",
+            "growTips": "Tomatillos are easy to grow, but make sure to plant at least three because they do not self-pollinate. Tomatillos thrive in the same conditions as tomatoes. Don't remove the papery tunic that grows over the fruit until ready to use the tomatillo.",
+            "picture": "/img/tomatillo.jpg"
+          },
+          {
+            "id": 3,
+            "plantName": "Jalapeno",
+            "hardinessZone": "Hardiness Zone: 3-11",
+            "growTips": "These medium-spicy peppers are very easy to grow. They need lots of sun and regular watering -- but try not to get the peppers themselves wet. Harvest peppers when they are still green for best texture and flavor.",
+            "picture": "/img/jalapeno.jpg"
+          },
+          {
+            "id": 4,
+            "plantName": "Serrano",
+            "hardinessZone": "Hardiness Zone: 5-11",
+            "growTips": "Harvest hot serrano peppers when they are still green or when they are mature and will be red or yellow. Wear gloves when handling spicy peppers.",
+            "picture": "/img/serrano.jpg"
+          },
+          {
+            "id": 5,
+            "plantName": "Lime Tree",
+            "hardinessZone": "Hardiness Zone: 8-11",
+            "growTips": "Lime trees usually need 3-4 years to begin to bear fruit and need a little extra work to grow well. They require lots of fertilizing. Make sure not to overwater, as lime trees are prone to root rot.",
+            "picture": "/img/lime-tree.jpg"
+          },
+          {
+            "id": 6,
+            "plantName": "Onions",
+            "hardinessZone": "Hardiness Zone: 3-9",
+            "growTips": "Do NOT plant onions with or near tomatoes or potatoes! Plant in the spring for a fall harvest, and fertilize frequently for larger bulbs. For sweeter onions, water more often.",
+            "picture": "/img/onions.jpg"
+          },
+          {
+            "id": 7,
+            "plantName": "Garlic",
+            "hardinessZone": "Hardiness Zone: 3-9",
+            "growTips": "In mild climates, plant your garlic in fall and harvest in late spring, when most of the leaves dry out and turn brown. Resist the urge to pull them out by the stems! Always dig up gently with a hand spade.",
+            "picture": "/img/garlic.jpg"
+          },
+          {
+            "id": 8,
+            "plantName": "Brandywine Tomato",
+            "hardinessZone": "Hardiness Zone: 5-10",
+            "growTips": "This no-fuss tomato grows large, flavorful fruit. Use a simple tomato cage to support branches from breaking due to heavy fruit, and keep the fruit from resting on the ground or they will rot.",
+            "picture": "/img/brandywine-toms.jpg"
+          },
+          {
+            "id": 9,
+            "plantName": "Anaheim Pepper",
+            "hardinessZone": "Hardiness Zone: 5-11",
+            "growTips": "This sweet and mild spicy pepper plant doesn't require too much watering and is easy to grow if provided lots of bright sunlight.",
+            "picture": "/img/anaheim-pepper.jpg"
+          },
+          {
+            "id": 10,
+            "plantName": "Cumin",
+            "hardinessZone": "Hardiness Zone: 5-10",
+            "growTips": "Cumin has lovely groups of white flowers. Leave the flowers to go to seed and dry on the stem. Toast and grind the seeds to make this delicious spice from scratch.",
+            "picture": "/img/cumin_plant.jpg"
+          },
+          {
+            "id": 11,
+            "plantName": "Oregano",
+            "hardinessZone": "Hardiness Zone: 5-10",
+            "growTips": "Oregano grows beautifully in pots as well as in garden beds. To keep your oregano happy, let the soil dry out between waterings.",
+            "picture": "/img/use-oregano.jpg"
+          },
+          {
+            "id": 12,
+            "plantName": "Cilantro",
+            "hardinessZone": "Hardiness Zone: 3-11",
+            "growTips": "Cilantro's bright, fresh leaves are a staple in salsas. Snip the flowers off as they form to keep your cilantro growing continuously through the season. Cilantro benefits from partial shade as temperatures rise in the summer.",
+            "picture": "/img/cilantro.jpg"
+          }
+        ]
+      },
+      "id": 5
     }
   ]
 }
