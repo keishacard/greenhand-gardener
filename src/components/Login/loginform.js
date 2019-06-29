@@ -51,7 +51,7 @@ export default class Login extends Component {
                                 <Label className="labels" for="password">Password</Label>
                                 <Input style={{ width: "40%" }} type="password" onChange={this.handleFieldChange} id="password"></Input>
                             </FormGroup>
-                            <Button style={{ marginRight: 30, display: "inline" }} type="submit" color="primary">Login</Button>
+                            <Button style={{ backgroundColor: "#2c5c4c", color: "#ffb2ab", marginRight: 30, display: "inline" }} type="submit" color="primary">Login</Button>
                             <Button align="center" color="secondary" onClick={() => this.props.history.push("/register")}>Register</Button>
                         </div>
                     </Form>

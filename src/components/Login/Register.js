@@ -57,7 +57,7 @@ export default class Register extends Component {
                                 <Label className="labels" for="password">Password</Label>
                                 <Input style={{ width: "40%" }} type="password" onChange={this.handleFieldChange} id="password"></Input>
                             </FormGroup>
-                            <Button color="primary">Register</Button>
+                            <Button style={{ backgroundColor: "#2c5c4c", color: "#ffb2ab" }}>Register</Button>
                         </div>
                     </Form>
                 </div>

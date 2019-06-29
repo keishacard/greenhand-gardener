@@ -56,7 +56,7 @@ export default class gardenCard extends Component {
         return (
             <React.Fragment >
                 <h1 className="display-3" style={{ marginLeft: 20 }}>{this.state.garden.title}</h1>
-                <Button color="primary" style={{ marginLeft: 20 }} onClick={this.clickedSave}>Save This Garden</Button>
+                <Button style={{ backgroundColor: "#2c5c4c", color: "#ffb2ab", marginLeft: 20 }} onClick={this.clickedSave}>Save This Garden</Button>
                 <div style={{ maxWidth: "70%", margin: 20 }}>
                     <h3>{this.state.garden.synopsis}</h3>
                 </div>

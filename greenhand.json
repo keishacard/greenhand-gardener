@@ -1236,6 +1236,44 @@
         ]
       },
       "id": 5
+    },
+    {
+      "userId": 2,
+      "garden": {
+        "title": "Build Your Own",
+        "synopsis": "You're a rebel! Use our plant database and grow tips to design your dream garden.",
+        "plants": [
+          {
+            "id": 1,
+            "plantName": "Fresh Salsa Tomato",
+            "hardinessZone": "Hardiness Zone: 5-11",
+            "growTips": "This tomato's large, meaty, plum-shaped fruit stays firm when chopped, is easy to deseed and won't water down your salsa.",
+            "picture": "/img/fresh-salsa.jpg"
+          },
+          {
+            "id": 3,
+            "plantName": "Jalapeno",
+            "hardinessZone": "Hardiness Zone: 3-11",
+            "growTips": "These medium-spicy peppers are very easy to grow. They need lots of sun and regular watering -- but try not to get the peppers themselves wet. Harvest peppers when they are still green for best texture and flavor.",
+            "picture": "/img/jalapeno.jpg"
+          },
+          {
+            "id": 4,
+            "plantName": "Serrano",
+            "hardinessZone": "Hardiness Zone: 5-11",
+            "growTips": "Harvest hot serrano peppers when they are still green or when they are mature and will be red or yellow. Wear gloves when handling spicy peppers.",
+            "picture": "/img/serrano.jpg"
+          },
+          {
+            "id": 5,
+            "plantName": "Lime Tree",
+            "hardinessZone": "Hardiness Zone: 8-11",
+            "growTips": "Lime trees usually need 3-4 years to begin to bear fruit and need a little extra work to grow well. They require lots of fertilizing. Make sure not to overwater, as lime trees are prone to root rot.",
+            "picture": "/img/lime-tree.jpg"
+          }
+        ]
+      },
+      "id": 6
     }
   ]
 }
