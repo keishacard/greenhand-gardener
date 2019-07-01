@@ -22,17 +22,17 @@ export default class Example extends React.Component {
     render() {
         return (
             <div>
-                <Navbar color="light" light expand="md">
-                    <NavbarBrand href="/">Greenhand Gardener</NavbarBrand>
+                <Navbar fill="green" light expand="md">
+                    <NavbarBrand style={{ color: "#ffb2ab" }} href="/">Greenhand Gardener</NavbarBrand>
                     <Nav className="ml-auto" navbar>
                         <NavItem>
-                            <NavLink href="/mygardens">My Gardens</NavLink>
+                            <NavLink style={{ color: "#ffb2ab" }} href="/mygardens">My Gardens</NavLink>
                         </NavItem>
                         {/* <NavItem>
                             <NavLink href="/friends">Friends</NavLink>
                         </NavItem> */}
                         <NavItem>
-                            <NavLink href="/" onClick={this.logUserOut}>Logout</NavLink>
+                            <NavLink style={{ color: "#ffb2ab" }} href="/" onClick={this.logUserOut}>Logout</NavLink>
                         </NavItem>
                     </Nav>
                 </Navbar>

@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap'
 import DBcalls from "../DBcalls"
+import { blockStatement } from "@babel/types";
+import "./login.css"
 
 export default class Login extends Component {
 
@@ -37,21 +39,24 @@ export default class Login extends Component {
     render() {
         return (
             <React.Fragment>
-                <h1 className="display-1" align="center">Greenhand Gardener</h1>
-                <Form onSubmit={this.handleLogin}>
-                    <div className="login-div">
-                        <FormGroup>
-                            <Label for="email">Email</Label>
-                            <Input type="email" onChange={this.handleFieldChange} id="email"></Input>
-                        </FormGroup>
-                        <FormGroup>
-                            <Label for="password">Password</Label>
-                            <Input type="password" onChange={this.handleFieldChange} id="password"></Input>
-                        </FormGroup>
-                        <Button color="primary">Login</Button>
-                    </div>
-                </Form>
-                <Button color="secondary" onClick={() => this.props.history.push("/register")}>Register</Button>
+                <div align="center">
+                    <Form onSubmit={this.handleLogin}>
+                        <div className="login-div">
+                            <img id="logo" src={process.env.PUBLIC_URL + "/img/greenhand-logo.jpg"} alt="greenhand-logo" />
+                            <FormGroup>
+                                <Label className="labels" for="email">Email</Label>
+                                <Input style={{ width: "40%" }} type="email" onChange={this.handleFieldChange} id="email"></Input>
+                            </FormGroup>
+                            <FormGroup>
+                                <Label className="labels" for="password">Password</Label>
+                                <Input style={{ width: "40%" }} type="password" onChange={this.handleFieldChange} id="password"></Input>
+                            </FormGroup>
+                            <Button style={{ backgroundColor: "#2c5c4c", color: "#ffb2ab", marginRight: 30, display: "inline" }} type="submit" color="primary">Login</Button>
+                            <Button align="center" color="secondary" onClick={() => this.props.history.push("/register")}>Register</Button>
+                        </div>
+                    </Form>
+                </div>
+
             </React.Fragment>
         )
     }

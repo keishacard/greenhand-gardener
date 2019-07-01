@@ -66,15 +66,17 @@ export default class ByoGarden extends Component {
 
         return (
             <React.Fragment >
-                <h1 className="display-3">{this.state.garden.title}</h1>
-                <Button color="primary" onClick={this.clickedSave}>Save This Garden</Button>
-                <h3>{this.state.garden.synopsis}</h3>
+                <div style={{ marginLeft: 20 }}>
+                    <h1 className="display-3">{this.state.garden.title}</h1>
+                    <Button style={{ backgroundColor: "#2c5c4c", color: "#ffb2ab" }} onClick={this.clickedSave}>Save This Garden</Button>
+                    <h3 style={{ maxWidth: "70%" }}>{this.state.garden.synopsis}</h3>
+                </div>
                 <div className="flexContainer">
                     <div className="plant-name-div">
                         <ul>
                             {this.state.plants.map((plant, plantArrayId) => {
                                 return (
-                                    <div id={plantArrayId}>
+                                    <div id={plantArrayId} key={plantArrayId}>
                                         <ListPlants plant={plant} key={plant.id} setPlant={this.setCurrentPlantInfo} />
                                     </div>
                                 )
@@ -83,7 +85,7 @@ export default class ByoGarden extends Component {
                         </ul>
                     </div>
                     <div className="plant-info-div">
-                        <Button color="primary" onClick={this.clickedSavePlant}>Save This Plant</Button>
+                        <Button style={{ backgroundColor: "#2c5c4c", color: "#ffb2ab" }} onClick={this.clickedSavePlant}>Save This Plant</Button>
                         {(this.state.currentPlantInfo) ? <PlantInfo plantObject={this.state.currentPlantInfo} /> : null}
                     </div>
                 </div>
